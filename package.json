@@ -1,0 +1,35 @@
+{
+  "name": "squared-vscode-theme",
+  "displayName": "squared Theme",
+  "description": "VSCode color themes for squared.",
+  "version": "0.0.1",
+  "publisher": "squared",
+  "author": {
+     "name": "An Pham",
+     "email": "anpham6@gmail.com",
+     "url": "https://github.com/anpham6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anpham6/squared-vscode-theme.git"
+  },
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "squared Monokai Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-dark.json"
+      }
+    ]
+  },
+  "publishConfig": {
+     "access": "public"
+  }
+}
