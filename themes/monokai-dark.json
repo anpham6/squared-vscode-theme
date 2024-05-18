@@ -854,6 +854,15 @@
 			}
 		},
 		{
+			"scope": [
+				"variable.other.property",
+				"variable.other.block"
+			],
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
 			"scope": "entity.name.variable.enum-member",
 			"settings": {
 				"foreground": "#AE81FF"
