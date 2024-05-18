@@ -804,7 +804,7 @@
 		{
 			"scope": "punctuation.definition.template-expression, punctuation.section.embedded",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#4EC9B0"
 			}
 		},
 		{
@@ -871,7 +871,7 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#E06C6B"
 			}
 		},
 		{
@@ -890,7 +890,7 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#E06C6B"
 			}
 		},
 		{
@@ -1155,7 +1155,7 @@
 		{
 			"scope": "variable.language, keyword.other.this, keyword.other.base, keyword.other.value",
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#D64A4A",
 				"fontStyle": "italic"
 			}
 		},
@@ -1186,13 +1186,13 @@
 		{
 			"scope": "storage.type.namespace.definition.cpp",
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#E06C6B"
 			}
 		},
 		{
 			"scope": "storage.type.modifier.access",
 			"settings": {
-				"foreground": "#FF7B72"
+				"foreground": "#E06C6B"
 			}
 		},
 		{
