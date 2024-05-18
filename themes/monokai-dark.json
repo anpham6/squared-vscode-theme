@@ -816,7 +816,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
@@ -829,13 +829,13 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
 			"scope": "constant.character, constant.other",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
@@ -1101,7 +1101,7 @@
 		{
 			"scope": "string.other.link.title.markdown, string.other.link.description.markdown",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
@@ -1168,7 +1168,7 @@
 		{
 			"scope": "keyword.other.unit.suffix.integer.cpp, keyword.other.unit.suffix.floating-point.cpp",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
@@ -1217,7 +1217,7 @@
 		{
 			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
