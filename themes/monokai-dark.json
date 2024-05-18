@@ -947,7 +947,7 @@
 		{
 			"scope": "entity.name.function.invocation.cs",
 			"settings": {
-				"foreground": "#53ECEF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -978,7 +978,7 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#53ECEF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -1174,7 +1174,7 @@
 		{
 			"scope": "entity.name.function.call.cpp, entity.name.function.member.cpp",
 			"settings": {
-				"foreground": "#53ECEF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -1223,13 +1223,13 @@
 		{
 			"scope": "entity.name.function.c, entity.name.function.member.c",
 			"settings": {
-				"foreground": "#53ECEF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#53ECEF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
