@@ -871,7 +871,7 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#FF7B72"
 			}
 		},
 		{
@@ -890,7 +890,7 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#FF7B72"
 			}
 		},
 		{
@@ -1186,13 +1186,13 @@
 		{
 			"scope": "storage.type.namespace.definition.cpp",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#FF7B72"
 			}
 		},
 		{
 			"scope": "storage.type.modifier.access",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#FF7B72"
 			}
 		},
 		{
