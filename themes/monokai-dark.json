@@ -784,10 +784,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": [
-				"meta.embedded",
-				"source.groovy.embedded"
-			],
+			"scope": "meta.embedded, source.groovy.embedded",
 			"settings": {
 				"foreground": "#F8F8F2"
 			}
@@ -805,18 +802,13 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.definition.template-expression",
-				"punctuation.section.embedded"
-			],
+			"scope": "punctuation.definition.template-expression, punctuation.section.embedded",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": [
-				"meta.template.expression"
-			],
+			"scope": "meta.template.expression",
 			"settings": {
 				"foreground": "#F8F8F2"
 			}
@@ -847,25 +839,39 @@
 			}
 		},
 		{
-			"scope": "variable",
+			"scope": "variable, variable.other.object",
 			"settings": {
-				"foreground": "#F8F8F2",
-				"fontStyle": ""
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
-			"scope": [
-				"variable.other.property",
-				"variable.other.block"
-			],
+			"scope": "variable.other.property, variable.other.block",
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#E6DB74"
+			}
+		},
+		{
+			"scope": "entity.name.tag.class, entity.name.tag.id",
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"scope": "entity.name.module, entity.name.type",
+			"settings": {
+				"foreground": "#E6DB74"
 			}
 		},
 		{
 			"scope": "entity.name.variable.enum-member",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"scope": "string.embedded.begin, string.embedded.end",
+			"settings": {
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -890,8 +896,7 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": ""
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -899,6 +904,12 @@
 			"settings": {
 				"foreground": "#66D9EF",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "storage.identifier",
+			"settings": {
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -936,8 +947,7 @@
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#A6E22E",
-				"fontStyle": ""
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -956,15 +966,13 @@
 		{
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": ""
+				"foreground": "#F92672"
 			}
 		},
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#A6E22E",
-				"fontStyle": ""
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -976,15 +984,13 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#66D9EF",
-				"fontStyle": ""
+				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#66D9EF",
-				"fontStyle": ""
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -995,9 +1001,9 @@
 			}
 		},
 		{
-			"scope": "support.other.variable",
+			"scope": "support.variable, support.other.variable",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -1063,8 +1069,7 @@
 		{
 			"scope": "markup.inline.raw",
 			"settings": {
-				"foreground": "#FD971F",
-				"fontStyle": ""
+				"foreground": "#FD971F"
 			}
 		},
 		{
@@ -1100,13 +1105,13 @@
 			}
 		},
 		{
-			"scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+			"scope": "string.other.link.title.markdown, string.other.link.description.markdown",
 			"settings": {
 				"foreground": "#AE81FF"
 			}
 		},
 		{
-			"scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+			"scope": "markup.underline.link.markdown, markup.underline.link.image.markdown",
 			"settings": {
 				"foreground": "#E6DB74"
 			}
@@ -1124,9 +1129,7 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.definition.list.begin.markdown"
-			],
+			"scope": "punctuation.definition.list.begin.markdown",
 			"settings": {
 				"foreground": "#A6E22E"
 			}
@@ -1165,22 +1168,19 @@
 		{
 			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, storage.modifier.pointer.cpp, storage.modifier.reference.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
 			"settings": {
-				"foreground": "#F8F8F2",
-				"fontStyle": ""
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
 			"scope": "keyword.other.unit.suffix.integer.cpp, keyword.other.unit.suffix.floating-point.cpp",
 			"settings": {
-				"foreground": "#AE81FF",
-				"fontStyle": ""
+				"foreground": "#AE81FF"
 			}
 		},
 		{
 			"scope": "entity.name.function.call.cpp, entity.name.function.member.cpp",
 			"settings": {
-				"foreground": "#66D9EF",
-				"fontStyle": ""
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -1192,15 +1192,13 @@
 		{
 			"scope": "storage.type.namespace.definition.cpp",
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": ""
+				"foreground": "#F92672"
 			}
 		},
 		{
 			"scope": "storage.type.modifier.access",
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": ""
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -1219,29 +1217,25 @@
 		{
 			"scope": "variable.parameter.preprocessor.c, entity.name.function.preprocessor.c, variable.parameter.probably.c, keyword.operator.decrement.c, keyword.operator.increment.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.assignment.compound.bitwise.c, keyword.operator.bitwise.c, keyword.operator.bitwise.shift.c, keyword.operator.logical.c, keyword.operator.ternary.c, keyword.operator.c, keyword.operator.comparison.c, variable.parameter.c",
 			"settings": {
-				"foreground": "#F8F8F2",
-				"fontStyle": ""
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
 			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
 			"settings": {
-				"foreground": "#AE81FF",
-				"fontStyle": ""
+				"foreground": "#AE81FF"
 			}
 		},
 		{
 			"scope": "entity.name.function.c, entity.name.function.member.c",
 			"settings": {
-				"foreground": "#66D9EF",
-				"fontStyle": ""
+				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#66D9EF",
-				"fontStyle": ""
+				"foreground": "#66D9EF"
 			}
 		},
 		{
