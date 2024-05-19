@@ -863,12 +863,6 @@
 			}
 		},
 		{
-			"scope": "string.embedded.begin, string.embedded.end",
-			"settings": {
-				"foreground": "#E6DB74"
-			}
-		},
-		{
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#E06C6B"
@@ -945,9 +939,16 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.invocation.cs",
+			"scope": "entity.name.function.invocation",
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#A6E22E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "entity.name.function.preprocessor",
+			"settings": {
+				"foreground": "#FDAC42"
 			}
 		},
 		{
@@ -960,7 +961,20 @@
 		{
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#679427"
+			}
+		},
+		{
+			"scope": "entity.name.tag.html",
+			"settings": {
+				"foreground": "#D64A4A"
+			}
+		},
+		{
+			"scope": "entity.name.section",
+			"settings": {
+				"foreground": "#D64A4A",
+				"fontStyle": "italic"
 			}
 		},
 		{
