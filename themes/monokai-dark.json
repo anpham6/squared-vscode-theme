@@ -816,7 +816,7 @@
 		{
 			"scope": "constant.numeric.other.suffix",
 			"settings": {
-				"foreground": "#72C5D6",
+				"foreground": "#80CAEA",
 				"fontStyle": "italic"
 			}
 		},
@@ -829,7 +829,7 @@
 		{
 			"scope": "entity.name.tag.class, entity.name.tag.id",
 			"settings": {
-				"foreground": "#72C5D6"
+				"foreground": "#80CAEA"
 			}
 		},
 		{
@@ -845,6 +845,12 @@
 			}
 		},
 		{
+			"scope": "entity.name.filename.find-in-files",
+			"settings": {
+				"foreground": "#E6DB74"
+			}
+		},
+		{
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#C66D51"
@@ -853,7 +859,7 @@
 		{
 			"scope": "keyword.other.var.cs, keyword.other.namespace, keyword.operator.arrow, keyword.other.class, keyword.other.enum, keyword.type, keyword.other.get, keyword.other.set",
 			"settings": {
-				"foreground": "#72C5D6",
+				"foreground": "#80CAEA",
 				"fontStyle": "italic"
 			}
 		},
@@ -878,7 +884,7 @@
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#72C5D6"
+				"foreground": "#80CAEA"
 			}
 		},
 		{
@@ -902,7 +908,7 @@
 		{
 			"scope": "entity.name.type.type-parameter",
 			"settings": {
-				"foreground": "#72C5D6",
+				"foreground": "#80CAEA",
 				"fontStyle": "italic"
 			}
 		},
@@ -972,7 +978,7 @@
 		{
 			"scope": "entity.name.section",
 			"settings": {
-				"foreground": "#CD9731",
+				"foreground": "#FDAC42",
 				"fontStyle": "bold"
 			}
 		},
@@ -997,7 +1003,7 @@
 		{
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#72C5D6"
+				"foreground": "#80CAEA"
 			}
 		},
 		{
@@ -1009,7 +1015,7 @@
 		{
 			"scope": "support.type, support.other.variable",
 			"settings": {
-				"foreground": "#72C5D6"
+				"foreground": "#80CAEA"
 			}
 		},
 		{
@@ -1050,12 +1056,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.filename.find-in-files",
-			"settings": {
-				"foreground": "#E6DB74"
-			}
-		},
-		{
 			"scope": "markup.quote",
 			"settings": {
 				"foreground": "#F92672"
@@ -1068,9 +1068,15 @@
 			}
 		},
 		{
-			"scope": "markup.bold, markup.italic",
+			"scope": "markup.bold",
 			"settings": {
-				"foreground": "#72C5D6"
+				"foreground": "#CD9731"
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings": {
+				"foreground": "#CD9731"
 			}
 		},
 		{
@@ -1253,7 +1259,7 @@
 		{
 			"scope": "support.variable.automatic.powershell",
 			"settings": {
-				"foreground": "#72C5D6"
+				"foreground": "#80CAEA"
 			}
 		}
 	]
