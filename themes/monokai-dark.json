@@ -971,9 +971,17 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.keyword.css",
+			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
 			"settings": {
-				"foreground": "#823737"
+				"foreground": "#75715E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.definition.keyword.css",
+			"settings": {
+				"foreground": "#823737",
+				"fontStyle": "bold"
 			}
 		},
 		{
