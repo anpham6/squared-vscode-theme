@@ -778,7 +778,13 @@
 	},
 	"tokenColors": [
 		{
-			"scope": "meta.embedded, source.groovy.embedded",
+			"scope": "meta.embedded, source.groovy.embedded, meta.template.expression",
+			"settings": {
+				"foreground": "#D0D0CD"
+			}
+		},
+		{
+			"scope": "storage.modifier.import.java, variable.language.wildcard.java, storage.modifier.package.java",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -792,19 +798,13 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
 			"scope": "punctuation.definition.template-expression, punctuation.section.embedded",
 			"settings": {
 				"foreground": "#55DDB1"
-			}
-		},
-		{
-			"scope": "meta.template.expression",
-			"settings": {
-				"foreground": "#D0D0CD"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 		{
 			"scope": "entity.name.module, entity.name.type",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -859,7 +859,7 @@
 		{
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -915,7 +915,7 @@
 		{
 			"scope": "storage.identifier",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -998,7 +998,7 @@
 		{
 			"scope": "string.quoted.double.css, string.quoted.single.css, variable.parameter.url.css",
 			"settings": {
-				"foreground": "#E5C07B",
+				"foreground": "#E6DB74",
 				"fontStyle": "italic"
 			}
 		},
@@ -1030,7 +1030,7 @@
 		{
 			"scope": "support.constant.property-value.css, keyword.other.unit",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -1048,7 +1048,7 @@
 		{
 			"scope": "meta.property-value.css",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -1122,7 +1122,7 @@
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -1134,7 +1134,7 @@
 		{
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -1196,7 +1196,7 @@
 		{
 			"scope": "markup.underline.link.markdown, markup.underline.link.image.markdown",
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
