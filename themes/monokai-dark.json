@@ -778,13 +778,13 @@
 	},
 	"tokenColors": [
 		{
-			"scope": "meta.embedded, source.groovy.embedded, meta.template.expression",
+			"scope": "meta.embedded, meta.template.expression, source.groovy.embedded",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
 		},
 		{
-			"scope": "storage.modifier.import.java, variable.language.wildcard.java, storage.modifier.package.java",
+			"scope": "storage.modifier.import.java, variable.language.wildcard.java, storage.modifier.package.java, storage.modifier.import.kotlin, variable.language.wildcard.kotlin, storage.modifier.package.kotlin",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -865,11 +865,24 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#C94052"
+				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "keyword.other.namespace, keyword.other.class, keyword.other.enum, keyword.other.get, keyword.other.set, keyword.other.this, keyword.other.base, keyword.other.value",
+			"scope": "keyword.other.package",
+			"settings": {
+				"foreground": "#55DDB1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword.other.import",
+			"settings": {
+				"foreground": "#77c8e4"
+			}
+		},
+		{
+			"scope": "keyword.other.namespace, keyword.other.class, keyword.other.enum, keyword.other.get, keyword.other.set",
 			"settings": {
 				"foreground": "#77c8e4",
 				"fontStyle": "italic"
@@ -878,11 +891,11 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#C94052"
+				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "storage.type",
+			"scope": "storage.type, keyword.other.this, keyword.other.base, keyword.other.value",
 			"settings": {
 				"foreground": "#77c8e4"
 			}
@@ -965,7 +978,7 @@
 		{
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#B04A4D"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -1268,7 +1281,7 @@
 		{
 			"scope": "storage.type.namespace.definition.cpp",
 			"settings": {
-				"foreground": "#C94052"
+				"foreground": "#F92672"
 			}
 		},
 		{
