@@ -802,15 +802,21 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.template-expression, punctuation.section.embedded",
+			"scope": "punctuation.definition.template-expression, punctuation.section.embedded, punctuation.accessor",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
 			"scope": "constant.language, constant.numeric",
 			"settings": {
 				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "constant.language.null",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -835,7 +841,7 @@
 		{
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#5CA2D2"
+				"foreground": "#77c8e4"
 			}
 		},
 		{
@@ -863,20 +869,20 @@
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": "keyword, keyword.operator, keyword.operator.new",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "keyword.other.package",
+			"scope": "keyword.other.package, support.class.builtin",
 			"settings": {
 				"foreground": "#55DDB1",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "keyword.other.import",
+			"scope": "keyword.other.import, keyword.other.import.static.java",
 			"settings": {
 				"foreground": "#77c8e4"
 			}
@@ -901,14 +907,14 @@
 			}
 		},
 		{
-			"scope": "storage.type.class, storage.type.function, storage.type.interface, entity.name.type.type-parameter",
+			"scope": "storage.type.namespace, storage.type.class, storage.type.function, storage.type.interface, entity.name.type.type-parameter",
 			"settings": {
 				"foreground": "#77c8e4",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "support.function",
+			"scope": "support.function, keyword.control.require",
 			"settings": {
 				"foreground": "#91D921"
 			}
@@ -1080,7 +1086,7 @@
 		{
 			"scope": "punctuation.definition.string.begin.css, punctuation.definition.string.end.css",
 			"settings": {
-				"foreground": "#79873F"
+				"foreground": "#E6DB7499"
 			}
 		},
 		{
