@@ -814,7 +814,7 @@
 			}
 		},
 		{
-			"scope": "constant.language.null, constant.language.undefined",
+			"scope": "constant.language.null, constant.language.undefined, constant.language.nan",
 			"settings": {
 				"foreground": "#CB95FD",
 				"fontStyle": "italic"
@@ -843,6 +843,12 @@
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#77c8e4"
+			}
+		},
+		{
+			"scope": "variable.language.super, variable.language.this",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -902,13 +908,13 @@
 			}
 		},
 		{
-			"scope": "storage.type, keyword.other.this, keyword.other.base, keyword.other.value",
+			"scope": "storage.type",
 			"settings": {
 				"foreground": "#77c8e4"
 			}
 		},
 		{
-			"scope": "storage.type.namespace, storage.type.class, storage.type.function, storage.type.interface, entity.name.type.type-parameter",
+			"scope": "storage.type.namespace, storage.type.class, storage.type.function, storage.type.interface, keyword.control.default.ts",
 			"settings": {
 				"foreground": "#77c8e4",
 				"fontStyle": "italic"
@@ -1105,6 +1111,48 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.quantifier.regexp, keyword.other.back-reference.regexp",
+			"settings": {
+				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "constant.character.escape.backslash.regexp",
+			"settings": {
+				"foreground": "#55DDB1"
+			}
+		},
+		{
+			"scope": "keyword.operator.or.regexp, punctuation.definition.group.regexp, punctuation.definition.group.capture.regexp",
+			"settings": {
+				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "punctuation.definition.character-class.regexp",
+			"settings": {
+				"foreground": "#79873F"
+			}
+		},
+		{
+			"scope": "constant.other.character-class.regexp",
+			"settings": {
+				"foreground": "#77c8e4"
+			}
+		},
+		{
+			"scope": "keyword.control.anchor.regexp, keyword.operator.negation.regexp",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": "constant.other.character-class.range.regexp, constant.other.character-class.set.regexp",
+			"settings": {
+				"foreground": "#E6DB74"
+			}
+		},
+		{
 			"scope": "punctuation.squarebracket.attribute",
 			"settings": {
 				"foreground": "#F92672"
@@ -1248,7 +1296,7 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#6796E6"
+				"foreground": "#77c8e4"
 			}
 		},
 		{
