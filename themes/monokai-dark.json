@@ -814,8 +814,9 @@
 			}
 		},
 		{
-			"scope": "constant.language.null",
+			"scope": "constant.language.null, constant.language.undefined",
 			"settings": {
+				"foreground": "#CB95FD",
 				"fontStyle": "italic"
 			}
 		},
@@ -914,6 +915,13 @@
 			}
 		},
 		{
+			"scope": "storage.modifier.async",
+			"settings": {
+				"foreground": "#CB95FD",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "support.function, keyword.control.require",
 			"settings": {
 				"foreground": "#91D921"
@@ -928,7 +936,8 @@
 		{
 			"scope": "support.class",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#55DDB1",
+				"fontStyle": "italic"
 			}
 		},
 		{
