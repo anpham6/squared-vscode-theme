@@ -888,7 +888,13 @@
 			}
 		},
 		{
-			"scope": "keyword.other.package, keyword.operator.new",
+			"scope": "keyword.operator.new",
+			"settings": {
+				"foreground": "#55DDB1"
+			}
+		},
+		{
+			"scope": "keyword.other.package",
 			"settings": {
 				"foreground": "#55DDB1",
 				"fontStyle": "italic"
@@ -915,7 +921,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.bitwise.shift",
+			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -1036,12 +1042,6 @@
 			}
 		},
 		{
-			"scope": "punctuation.accessor",
-			"settings": {
-				"foreground": "#79873F"
-			}
-		},
-		{
 			"scope": "punctuation.definition.template-expression, punctuation.section.embedded",
 			"settings": {
 				"foreground": "#CB95FD"
@@ -1114,12 +1114,6 @@
 			"settings": {
 				"foreground": "#91D921",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "punctuation.separator.key-value.css, punctuation.definition.arbitrary-repitition.css",
-			"settings": {
-				"foreground": "#75715E"
 			}
 		},
 		{
@@ -1312,18 +1306,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, storage.modifier.pointer.cpp, storage.modifier.reference.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
-			"settings": {
-				"foreground": "#D0D0CD"
-			}
-		},
-		{
-			"scope": "keyword.other.unit.suffix.integer.cpp, keyword.other.unit.suffix.floating-point.cpp",
-			"settings": {
-				"foreground": "#CB95FD"
-			}
-		},
-		{
 			"scope": "entity.name.namespace.cpp, entity.name.function.call.cpp, entity.name.function.member.cpp",
 			"settings": {
 				"foreground": "#91D921"
@@ -1346,18 +1328,6 @@
 			"settings": {
 				"foreground": "#91D921",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "variable.parameter.preprocessor.c, entity.name.function.preprocessor.c, variable.parameter.probably.c, keyword.operator.decrement.c, keyword.operator.increment.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.assignment.compound.bitwise.c, keyword.operator.bitwise.c, keyword.operator.bitwise.shift.c, keyword.operator.logical.c, keyword.operator.ternary.c, keyword.operator.c, keyword.operator.comparison.c, variable.parameter.c",
-			"settings": {
-				"foreground": "#D0D0CD"
-			}
-		},
-		{
-			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
-			"settings": {
-				"foreground": "#CB95FD"
 			}
 		},
 		{
