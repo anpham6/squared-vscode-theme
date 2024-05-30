@@ -835,7 +835,7 @@
 		{
 			"scope": "variable.language.super, variable.language.this",
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -921,7 +921,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.bitwise, keyword.operator.bitwise.shift, keyword.operator.type.annotation",
+			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
