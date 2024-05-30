@@ -869,13 +869,13 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.bitwise, keyword.other.unit, keyword.control.as, keyword.operator.optional",
+			"scope": "keyword.other.unit, keyword.control.as, keyword.operator.expression.is, keyword.operator.optional",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
 		},
 		{
-			"scope": "keyword.operator.expression.void",
+			"scope": "keyword.operator.expression.void, keyword.operator.expression.delete",
 			"settings": {
 				"foreground": "#CB95FD",
 				"fontStyle": "italic"
@@ -921,7 +921,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation",
+			"scope": "keyword.operator.bitwise, keyword.operator.bitwise.shift, keyword.operator.type.annotation",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -997,15 +997,15 @@
 			}
 		},
 		{
-			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution",
+			"scope": "entity.name.function.preprocessor",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#FDAC42"
 			}
 		},
 		{
-			"scope": "entity.name.function.preprocessor, entity.other.attribute-name.id.css",
+			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution",
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#55DDB1"
 			}
 		},
 		{
@@ -1068,7 +1068,7 @@
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
+			"scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.id.css",
 			"settings": {
 				"foreground": "#FDAC42"
 			}
@@ -1306,7 +1306,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.namespace.cpp, entity.name.function.call.cpp, entity.name.function.member.cpp",
+			"scope": "entity.name.namespace.cpp",
 			"settings": {
 				"foreground": "#91D921"
 			}
@@ -1328,12 +1328,6 @@
 			"settings": {
 				"foreground": "#91D921",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "entity.name.function.c, entity.name.function.member.c",
-			"settings": {
-				"foreground": "#91D921"
 			}
 		},
 		{
