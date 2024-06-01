@@ -869,7 +869,13 @@
 			}
 		},
 		{
-			"scope": "keyword.other.unit, keyword.control.as, keyword.operator.expression.is, keyword.operator.optional",
+			"scope": "keyword.other.unit, keyword.control.as, keyword.operator.expression.is",
+			"settings": {
+				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "keyword.operator.optional, keyword.operator.decrement, keyword.operator.increment, keyword.operator.arithmetic",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
@@ -901,9 +907,15 @@
 			}
 		},
 		{
-			"scope": "keyword.other.import, keyword.other.import.static.java",
+			"scope": "keyword.other.import, keyword.other.import.static",
 			"settings": {
 				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation",
+			"settings": {
+				"foreground": "#D0D0CD"
 			}
 		},
 		{
@@ -918,12 +930,6 @@
 			"settings": {
 				"foreground": "#FDAC42",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation",
-			"settings": {
-				"foreground": "#D0D0CD"
 			}
 		},
 		{
@@ -1196,13 +1202,13 @@
 			}
 		},
 		{
-			"scope": "markup.bold, markup.italic",
+			"scope": "markup.bold, markup.inline.raw",
 			"settings": {
 				"foreground": "#CD9731"
 			}
 		},
 		{
-			"scope": "markup.inline.raw",
+			"scope": "markup.italic",
 			"settings": {
 				"foreground": "#FDAC42"
 			}
@@ -1293,9 +1299,28 @@
 			}
 		},
 		{
-			"scope": "meta.function-call.generic.python",
+			"scope": "variable.other.normal.shell, variable.other.positional.shell",
+			"settings": {
+				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "punctuation.definition.arguments.shell, keyword.operator.redirect.shell",
 			"settings": {
 				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "support.function.builtin.shell, keyword.operator.expansion.shell",
+			"settings": {
+				"foreground": "#77C8E4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword.operator.logical.shell, punctuation.definition.logical-expression.shell, keyword.operator.pipe.shell",
+			"settings": {
+				"foreground": "#FDAC42"
 			}
 		},
 		{
