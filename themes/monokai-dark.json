@@ -1160,9 +1160,9 @@
 			}
 		},
 		{
-			"scope": "meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json, meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json",
+			"scope": "punctuation.separator.dictionary.pair.json, punctuation.separator.dictionary.key-value.json, punctuation.separator.array.json",
 			"settings": {
-				"foreground": "#75715E"
+				"foreground": "#8E8B7C"
 			}
 		},
 		{
@@ -1270,13 +1270,31 @@
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#B267E6"
+				"foreground": "#CB95FD"
 			}
 		},
 		{
 			"scope": "entity.name.namespace.cpp",
 			"settings": {
 				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "storage.type.java",
+			"settings": {
+				"foreground": "#55DDB1"
+			}
+		},
+		{
+			"scope": "storage.type.primitive.java, meta.method.return-type.java",
+			"settings": {
+				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "storage.modifier.extends.java, storage.modifier.implements",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
