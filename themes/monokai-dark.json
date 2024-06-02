@@ -821,7 +821,7 @@
 			}
 		},
 		{
-			"scope": "variable, variable.other.object, variable.other.property, support.variable, keyword.operator.spread",
+			"scope": "variable, variable.other.object, variable.other.property, support.variable",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -913,13 +913,13 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation",
+			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation, keyword.operator.spread",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
 		},
 		{
-			"scope": "keyword.other.namespace, keyword.other.class, keyword.other.enum, keyword.other.get, keyword.other.set",
+			"scope": "keyword.other.namespace, keyword.other.class, keyword.other.get, keyword.other.set",
 			"settings": {
 				"foreground": "#77C8E4",
 				"fontStyle": "italic"
@@ -933,13 +933,19 @@
 			}
 		},
 		{
+			"scope": "entity.name.type.enum",
+			"settings": {
+				"foreground": "#CB95FD"
+			}
+		},
+		{
 			"scope": "storage, storage.type.class",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "storage.type.js, storage.type.ts",
+			"scope": "storage.type.js, storage.type.ts, storage.type.type",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
@@ -965,7 +971,7 @@
 			}
 		},
 		{
-			"scope": "support.constant, support.type, support.other.variable",
+			"scope": "support.constant, storage.type.enum, support.other.variable",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
@@ -987,6 +993,12 @@
 			"scope": "storage.modifier.implements",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword.control.flow.ts, keyword.control.trycatch.ts",
+			"settings": {
+				"fontStyle": "underline"
 			}
 		},
 		{
