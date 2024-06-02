@@ -933,19 +933,19 @@
 			}
 		},
 		{
-			"scope": "storage",
+			"scope": "storage, storage.type.class",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "storage.type",
+			"scope": "storage.type.js, storage.type.ts",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "storage.type.namespace, storage.type.class, storage.type.function, storage.type.interface, keyword.control.default.ts",
+			"scope": "storage.type.namespace, storage.type.function, storage.type.interface, keyword.control.default.ts",
 			"settings": {
 				"foreground": "#77C8E4",
 				"fontStyle": "italic"
@@ -1274,18 +1274,18 @@
 			}
 		},
 		{
-			"scope": "entity.name.namespace.cpp",
-			"settings": {
-				"foreground": "#91D921"
-			}
-		},
-		{
 			"scope": "storage.type.java",
 			"settings": {
 				"foreground": "#55DDB1"
 			}
 		},
 		{
+			"scope": "variable.language.java",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+ 		{
 			"scope": "storage.type.primitive.java, meta.method.return-type.java",
 			"settings": {
 				"foreground": "#CB95FD"
@@ -1298,28 +1298,46 @@
 			}
 		},
 		{
-			"scope": "storage.type.namespace.definition.cpp",
+			"scope": "storage.type.class.cpp, storage.type.cpp, entity.name.type.cpp, storage.type.modifier.cpp",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "punctuation.separator.colon.access.control.cpp",
+			"scope": "storage.type.template.cpp, storage.modifier.cpp",
 			"settings": {
-				"foreground": "#D0D0CD"
+				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "meta.qualified_type.cpp, entity.name.type.cpp",
+			"scope": "entity.name.namespace.cpp, variable.parameter.cpp, punctuation.separator.colon.access.control.cpp",
 			"settings": {
-				"foreground": "#91D921",
-				"fontStyle": "italic"
+				"foreground": "#D0D0CD",
+				"fontStyle": ""
 			}
 		},
 		{
-			"scope": "variable.other.normal.shell, variable.other.positional.shell",
+			"scope": "keyword.operator.cast",
+			"settings": {
+				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "entity.name.type.cpp",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "variable.other.normal.shell, variable.other.positional.shell, variable.other.special.shell, punctuation.definition.variable.shell, variable.other.bracket.shell",
 			"settings": {
 				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "storage.modifier.shell",
+			"settings": {
+				"foreground": "#55DDB1"
 			}
 		},
 		{
@@ -1336,7 +1354,13 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.logical.shell, punctuation.definition.logical-expression.shell, keyword.operator.pipe.shell",
+			"scope": "keyword.operator.pipe.shell",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "keyword.operator.logical.shell, punctuation.definition.logical-expression.shell, punctuation.section.array.shell",
 			"settings": {
 				"foreground": "#FDAC42"
 			}
