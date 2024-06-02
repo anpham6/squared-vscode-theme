@@ -984,6 +984,12 @@
 			}
 		},
 		{
+			"scope": "storage.modifier.implements",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "entity.name.type.namespace, constant.language.import-export-all.ts",
 			"settings": {
 				"foreground": "#D0D0CD"
@@ -1178,6 +1184,74 @@
 			}
 		},
 		{
+			"scope": "storage.type.java",
+			"settings": {
+				"foreground": "#55DDB1"
+			}
+		},
+		{
+			"scope": "variable.language.java",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+ 		{
+			"scope": "storage.type.primitive.java, meta.method.return-type.java",
+			"settings": {
+				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "storage.modifier.extends.java",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "variable.parameter.c",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "entity.name.type.c",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "storage.type.class.cpp, storage.type.cpp, entity.name.type.cpp, storage.type.modifier.cpp",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": "storage.type.template.cpp, storage.modifier.cpp",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "entity.name.namespace.cpp, variable.parameter.cpp",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "keyword.operator.cast.cpp",
+			"settings": {
+				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "entity.name.type.cpp",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
 			"scope": "markup.deleted",
 			"settings": {
 				"foreground": "#F92672"
@@ -1271,61 +1345,6 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#CB95FD"
-			}
-		},
-		{
-			"scope": "storage.type.java",
-			"settings": {
-				"foreground": "#55DDB1"
-			}
-		},
-		{
-			"scope": "variable.language.java",
-			"settings": {
-				"foreground": "#F92672"
-			}
-		},
- 		{
-			"scope": "storage.type.primitive.java, meta.method.return-type.java",
-			"settings": {
-				"foreground": "#CB95FD"
-			}
-		},
-		{
-			"scope": "storage.modifier.extends.java, storage.modifier.implements",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "storage.type.class.cpp, storage.type.cpp, entity.name.type.cpp, storage.type.modifier.cpp",
-			"settings": {
-				"foreground": "#F92672"
-			}
-		},
-		{
-			"scope": "storage.type.template.cpp, storage.modifier.cpp",
-			"settings": {
-				"foreground": "#77C8E4"
-			}
-		},
-		{
-			"scope": "entity.name.namespace.cpp, variable.parameter.cpp, punctuation.separator.colon.access.control.cpp",
-			"settings": {
-				"foreground": "#D0D0CD",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "keyword.operator.cast",
-			"settings": {
-				"foreground": "#91D921"
-			}
-		},
-		{
-			"scope": "entity.name.type.cpp",
-			"settings": {
-				"foreground": "#77C8E4"
 			}
 		},
 		{
