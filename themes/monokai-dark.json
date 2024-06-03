@@ -1178,21 +1178,33 @@
 			}
 		},
 		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
 			"scope": "punctuation.separator.dictionary.pair.json, punctuation.separator.dictionary.key-value.json, punctuation.separator.array.json",
 			"settings": {
 				"foreground": "#8E8B7C"
 			}
 		},
 		{
+			"scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json",
+			"settings": {
+				"foreground": "#77C8E499"
+			}
+		},
+		{
 			"scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
 			"settings": {
-				"foreground": "#79873F"
+				"foreground": "#E6DB7499"
 			}
 		},
 		{
 			"scope": "constant.character.escape.json",
 			"settings": {
-				"foreground": "#E6DB7499"
+				"foreground": "#55DDB1"
 			}
 		},
 		{
