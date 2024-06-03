@@ -808,16 +808,9 @@
 			}
 		},
 		{
-			"scope": "constant.other, constant.character",
+			"scope": "constant.numeric.hex, constant.numeric.binary, constant.numeric.octal",
 			"settings": {
 				"foreground": "#55DDB1"
-			}
-		},
-		{
-			"scope": "constant.numeric.other.suffix",
-			"settings": {
-				"foreground": "#77C8E4",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1023,7 +1016,8 @@
 		{
 			"scope": "entity.name.function.preprocessor",
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#D0D0CD",
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -1232,7 +1226,7 @@
 			}
 		},
 		{
-			"scope": "variable.parameter.c",
+			"scope": "variable.parameter.c, variable.parameter.preprocessor.c",
 			"settings": {
 				"foreground": "#D0D0CD",
 				"fontStyle": ""
@@ -1242,6 +1236,19 @@
 			"scope": "entity.name.type.c",
 			"settings": {
 				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "support.class.c",
+			"settings": {
+				"foreground": "#55DDB1",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
+			"settings": {
+				"foreground": "#CB95FD"
 			}
 		},
 		{
@@ -1261,12 +1268,6 @@
 			"settings": {
 				"foreground": "#D0D0CD",
 				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "keyword.operator.cast",
-			"settings": {
-				"foreground": "#91D921"
 			}
 		},
 		{
