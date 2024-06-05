@@ -850,7 +850,7 @@
 			}
 		},
 		{
-			"scope": "keyword.other.unit, keyword.control.as, keyword.operator.expression.is",
+			"scope": "keyword.other.unit, keyword.control.as, keyword.operator.expression.is, keyword.operator.expression.delete",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
@@ -862,7 +862,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.expression.void, keyword.operator.expression.delete",
+			"scope": "keyword.operator.expression.void",
 			"settings": {
 				"foreground": "#CB95FD",
 				"fontStyle": "italic"
@@ -888,22 +888,22 @@
 			}
 		},
 		{
-			"scope": "keyword.other.import, keyword.other.import.static",
+			"scope": "keyword.other.import, keyword.other.import.static, storage.type.property",
 			"settings": {
 				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "keyword.other.namespace, keyword.other.class",
+			"settings": {
+				"foreground": "#77C8E4",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation, keyword.operator.spread",
 			"settings": {
 				"foreground": "#D0D0CD"
-			}
-		},
-		{
-			"scope": "keyword.other.namespace, keyword.other.class, keyword.other.get, keyword.other.set",
-			"settings": {
-				"foreground": "#77C8E4",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -983,7 +983,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.namespace, constant.language.import-export-all.js, constant.language.import-export-all.ts",
+			"scope": "entity.name.type.namespace, entity.name.type.module, constant.language.import-export-all.js, constant.language.import-export-all.ts",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -1036,8 +1036,7 @@
 		{
 			"scope": "variable.parameter, entity.name.variable.parameter",
 			"settings": {
-				"foreground": "#FDAC42",
-				"fontStyle": "italic"
+				"foreground": "#FDAC42"
 			}
 		},
 		{
