@@ -840,7 +840,14 @@
 		{
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#FDAC42"
+			}
+		},
+		{
+			"scope": "entity.name.type.module",
+			"settings": {
+				"foreground": "#91D921",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -932,7 +939,7 @@
 			}
 		},
 		{
-			"scope": "storage.type.namespace, storage.type.function, storage.type.interface, keyword.control.default.js, keyword.control.default.ts",
+			"scope": "storage.type.namespace, storage.type.function, storage.type.interface",
 			"settings": {
 				"foreground": "#77C8E4",
 				"fontStyle": "italic"
@@ -977,19 +984,19 @@
 			}
 		},
 		{
-			"scope": "keyword.control.flow.js, keyword.control.trycatch.js, keyword.control.flow.ts, keyword.control.trycatch.ts",
+			"scope": "keyword.control.flow.js, keyword.control.trycatch.js, keyword.control.flow.ts, keyword.control.trycatch.ts, keyword.control.default.js, keyword.control.default.ts",
 			"settings": {
 				"fontStyle": "underline"
 			}
 		},
 		{
-			"scope": "entity.name.type.namespace, entity.name.type.module, constant.language.import-export-all.js, constant.language.import-export-all.ts",
+			"scope": "entity.name.type.namespace, constant.language.import-export-all.js, constant.language.import-export-all.ts",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
 		},
 		{
-			"scope": "entity.name.type.namespace.declaration, entity.name.function",
+			"scope": "entity.name.type.namespace.declaration, entity.name.function, entity.other.attribute-name",
 			"settings": {
 				"foreground": "#91D921"
 			}
@@ -1005,19 +1012,13 @@
 			"scope": "entity.name.function.preprocessor",
 			"settings": {
 				"foreground": "#D0D0CD",
-				"fontStyle": "underline"
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution",
+			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution, entity.other.inherited-class",
 			"settings": {
 				"foreground": "#55DDB1"
-			}
-		},
-		{
-			"scope": "entity.other.inherited-class, entity.other.attribute-name",
-			"settings": {
-				"foreground": "#91D921"
 			}
 		},
 		{
@@ -1219,7 +1220,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.c",
+			"scope": "storage.modifier.c, entity.name.type.c",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
@@ -1251,7 +1252,7 @@
 			}
 		},
 		{
-			"scope": "storage.type.template.cpp, storage.modifier.cpp",
+			"scope": "storage.modifier.cpp, storage.type.template.cpp",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
