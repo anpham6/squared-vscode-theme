@@ -1208,7 +1208,7 @@
 			}
 		},
 		{
-			"scope": "variable.language.java, variable.language.kotlin",
+			"scope": "variable.language.java, variable.language.kotlin, keyword.operator.arithmetic.java, keyword.operator.arithmetic.kotlin",
 			"settings": {
 				"foreground": "#F92672"
 			}
@@ -1216,7 +1216,7 @@
  		{
 			"scope": "storage.type.primitive.java",
 			"settings": {
-				"foreground": "#CB95FD"
+				"foreground": "#77C8E4"
 			}
 		},
 		{
@@ -1393,19 +1393,12 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.arguments.shell, keyword.operator.redirect.shell",
+			"scope": "support.function.builtin.shell, punctuation.definition.arguments.shell, keyword.operator.redirect.shell",
 			"settings": {
 				"foreground": "#91D921"
 			}
 		},
-		{
-			"scope": "support.function.builtin.shell",
-			"settings": {
-				"foreground": "#77C8E4",
-				"fontStyle": "italic"
-			}
-		},
-		{
+    	{
 			"scope": "keyword.operator.logical.shell, keyword.operator.arithmetic.shell",
 			"settings": {
 				"foreground": "#F92672"
