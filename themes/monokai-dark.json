@@ -1239,7 +1239,7 @@
 			}
 		},
 		{
-			"scope": "support.class.c",
+			"scope": "support.class.c, support.class.cpp",
 			"settings": {
 				"foreground": "#55DDB1",
 				"fontStyle": ""
@@ -1253,22 +1253,35 @@
 			}
 		},
 		{
-			"scope": "storage.type.template.cpp",
+			"scope": "storage.type.template.cpp, entity.name.type.template.cpp, punctuation.section.angle-brackets",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "entity.name.namespace.cpp, variable.parameter.cpp",
+			"scope": "entity.name.type.cpp, entity.name.type.struct.cpp",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "storage.modifier.pointer.cpp, storage.modifier.reference.cpp",
+			"settings": {
+				"foreground": "#FDAC42",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "variable.parameter.cpp",
+			"settings": {
+				"foreground": "#D0D0CD"
+			}
+		},
+		{
+			"scope": "entity.name.namespace.cpp, keyword.other.using.directive.cpp",
 			"settings": {
 				"foreground": "#D0D0CD",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "entity.name.type.cpp",
-			"settings": {
-				"foreground": "#77C8E4"
+				"fontStyle": "italic"
 			}
 		},
 		{
