@@ -802,12 +802,6 @@
 			}
 		},
 		{
-			"scope": "constant.numeric.hex, constant.numeric.binary, constant.numeric.octal",
-			"settings": {
-				"foreground": "#55DDB1"
-			}
-		},
-		{
 			"scope": "constant.language.import-export-all.js, constant.language.import-export-all.ts",
 			"settings": {
 				"foreground": "#D0D0CD"
@@ -894,23 +888,22 @@
 			}
 		},
 		{
-			"scope": "keyword.other.package",
+			"scope": "keyword.other.package, keyword.other.kotlin, keyword.other.namespace, keyword.other.class",
 			"settings": {
-				"foreground": "#55DDB1",
+				"foreground": "#77C8E4",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "keyword.other.import, keyword.other.import.static, storage.type.property",
+			"scope": "storage.type.property",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "keyword.other.namespace, keyword.other.class",
+			"scope": "keyword.other.import, keyword.other.import.static",
 			"settings": {
-				"foreground": "#77C8E4",
-				"fontStyle": "italic"
+				"foreground": "#55DDB1"
 			}
 		},
 		{
@@ -1387,13 +1380,13 @@
 			}
 		},
 		{
-			"scope": "storage.modifier.shell, variable.other.positional.shell, variable.other.special.shell",
+			"scope": "storage.modifier.shell, entity.name.function.shell, variable.other.positional.shell, variable.other.special.shell",
 			"settings": {
 				"foreground": "#55DDB1"
 			}
 		},
 		{
-			"scope": "support.function.builtin.shell, punctuation.definition.arguments.shell, keyword.operator.redirect.shell",
+			"scope": "support.function.builtin.shell, keyword.operator.redirect.shell",
 			"settings": {
 				"foreground": "#91D921"
 			}
