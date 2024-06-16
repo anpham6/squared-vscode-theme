@@ -844,12 +844,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.filename.find-in-files",
-			"settings": {
-				"foreground": "#FDAC42"
-			}
-		},
-		{
 			"scope": "entity.name.type.module",
 			"settings": {
 				"foreground": "#91D921",
@@ -928,7 +922,8 @@
 		{
 			"scope": "entity.name.type.enum",
 			"settings": {
-				"foreground": "#CB95FD"
+				"foreground": "#91D921",
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -1246,7 +1241,7 @@
 			}
 		},
 		{
-			"scope": "keyword.control.directive, constant.numeric.preprocessor",
+			"scope": "keyword.control.directive, constant.numeric.preprocessor, keyword.other.using.directive.cpp",
 			"settings": {
 				"foreground": "#55DDB1",
 				"fontStyle": "italic"
@@ -1265,22 +1260,41 @@
 			}
 		},
 		{
-			"scope": "storage.modifier.pointer.cpp, storage.modifier.reference.cpp",
+			"scope": "storage.type.built-in.primitive.cpp",
 			"settings": {
-				"foreground": "#FDAC42",
-				"fontStyle": "underline"
+				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "variable.parameter.cpp",
+			"scope": "variable.parameter.cpp, meta.qualified_type.cpp",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
 		},
 		{
-			"scope": "entity.name.namespace.cpp, keyword.other.using.directive.cpp",
+			"scope": "storage.modifier.pointer.cpp, storage.modifier.reference.cpp",
 			"settings": {
 				"foreground": "#D0D0CD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "torage.modifier.specifier.parameter.cpp",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "entity.name.namespace.cpp",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "entity.name.operator.cpp, entity.name.scope-resolution.operator.cpp",
+			"settings": {
 				"fontStyle": "italic"
 			}
 		},
