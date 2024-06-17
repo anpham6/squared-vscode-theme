@@ -844,6 +844,13 @@
 			}
 		},
 		{
+			"scope": "entity.name.function.member",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "entity.name.type.module",
 			"settings": {
 				"foreground": "#91D921",
@@ -1016,7 +1023,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution, entity.other.inherited-class",
+			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution, entity.other.inherited-class, entity.name.variable.parameter",
 			"settings": {
 				"foreground": "#55DDB1"
 			}
@@ -1035,16 +1042,17 @@
 			}
 		},
 		{
-			"scope": "variable.parameter, entity.name.variable.parameter",
+			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDAC42",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#55DDB1DD",
-				"fontStyle": "bold"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1279,7 +1287,7 @@
 			}
 		},
 		{
-			"scope": "torage.modifier.specifier.parameter.cpp",
+			"scope": "storage.modifier.specifier.parameter.cpp",
 			"settings": {
 				"foreground": "#D0D0CD",
 				"fontStyle": "underline"
