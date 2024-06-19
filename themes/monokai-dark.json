@@ -826,6 +826,12 @@
 			}
 		},
 		{
+			"scope": "entity.name.type.enum",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
 			"scope": "entity.name.tag.class, entity.name.tag.id",
 			"settings": {
 				"foreground": "#77C8E4"
@@ -841,13 +847,6 @@
 			"scope": "entity.name.variable.enum-member",
 			"settings": {
 				"foreground": "#D0D0CD"
-			}
-		},
-		{
-			"scope": "entity.name.function.member",
-			"settings": {
-				"foreground": "#D0D0CD",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -924,13 +923,6 @@
 			"settings": {
 				"foreground": "#FDAC42",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "entity.name.type.enum",
-			"settings": {
-				"foreground": "#91D921",
-				"fontStyle": "underline"
 			}
 		},
 		{
@@ -1262,19 +1254,33 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.cpp, entity.name.type.struct.cpp",
+			"scope": "entity.name.type.cpp, entity.name.type.struct.cpp, storage.type.built-in.primitive.cpp",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "storage.type.built-in.primitive.cpp",
+			"scope": "keyword.control.directive.include",
 			"settings": {
-				"foreground": "#77C8E4"
+				"foreground": "#F92672",
+				"fontStyle": ""
 			}
 		},
 		{
-			"scope": "variable.parameter.cpp, meta.qualified_type.cpp",
+			"scope": "punctuation.separator.pointer-access.cpp, punctuation.separator.dot-access.cpp",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "entity.name.namespace.cpp",
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "variable.parameter.cpp, meta.qualified_type.cpp, entity.name.function.member.cpp",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -1291,13 +1297,6 @@
 			"settings": {
 				"foreground": "#D0D0CD",
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": "entity.name.namespace.cpp",
-			"settings": {
-				"foreground": "#D0D0CD",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1417,13 +1416,13 @@
 		{
 			"scope": "storage.modifier.shell, entity.name.function.shell, variable.other.positional.shell, variable.other.special.shell",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#91D921"
 			}
 		},
 		{
 			"scope": "support.function.builtin.shell, keyword.operator.redirect.shell",
 			"settings": {
-				"foreground": "#91D921"
+				"foreground": "#77C8E4"
 			}
 		},
     	{
