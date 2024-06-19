@@ -852,7 +852,7 @@
 		{
 			"scope": "entity.name.type.module",
 			"settings": {
-				"foreground": "#91D921",
+				"foreground": "#D0D0CD",
 				"fontStyle": "italic"
 			}
 		},
@@ -869,7 +869,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.optional, keyword.operator.decrement, keyword.operator.increment, keyword.operator.arithmetic",
+			"scope": "keyword.operator.decrement, keyword.operator.increment, keyword.operator.arithmetic",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
@@ -932,13 +932,13 @@
 			}
 		},
 		{
-			"scope": "storage.type.js, storage.type.ts, storage.type.type",
+			"scope": "storage.type.js, storage.type.ts, storage.type.type, storage.type.interface",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
 		},
 		{
-			"scope": "storage.type.namespace, storage.type.function, storage.type.interface",
+			"scope": "storage.type.namespace, storage.type.function",
 			"settings": {
 				"foreground": "#77C8E4",
 				"fontStyle": "italic"
@@ -980,12 +980,6 @@
 			"scope": "storage.identifier",
 			"settings": {
 				"foreground": "#E6DB74"
-			}
-		},
-		{
-			"scope": "storage.modifier.implements",
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1267,7 +1261,7 @@
 			}
 		},
 		{
-			"scope": "punctuation.separator.pointer-access.cpp, punctuation.separator.dot-access.cpp",
+			"scope": "punctuation.separator.pointer-access, punctuation.separator.dot-access",
 			"settings": {
 				"foreground": "#FFFFFF"
 			}
@@ -1300,7 +1294,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.operator.cpp, entity.name.scope-resolution.operator.cpp",
+			"scope": "variable.other.object.access, entity.name.operator.cpp, entity.name.scope-resolution.operator.cpp",
 			"settings": {
 				"fontStyle": "italic"
 			}
