@@ -820,7 +820,7 @@
 			}
 		},
 		{
-			"scope": "variable.language.super, variable.language.this",
+			"scope": "variable.language.super, variable.language.this, variable.language.arguments",
 			"settings": {
 				"foreground": "#F92672"
 			}
@@ -864,12 +864,6 @@
 		},
 		{
 			"scope": "keyword.other.unit, keyword.control.as, keyword.operator.expression.is, keyword.operator.expression.delete",
-			"settings": {
-				"foreground": "#CB95FD"
-			}
-		},
-		{
-			"scope": "keyword.operator.decrement, keyword.operator.increment, keyword.operator.arithmetic",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
@@ -1254,7 +1248,7 @@
 			}
 		},
 		{
-			"scope": "keyword.control.directive.include",
+			"scope": "keyword.control.directive.include, punctuation.definition.function.return-type",
 			"settings": {
 				"foreground": "#F92672",
 				"fontStyle": ""
@@ -1402,21 +1396,15 @@
 			}
 		},
 		{
-			"scope": "variable.other.bracket.shell, keyword.operator.expansion.shell, punctuation.definition.variable.shell",
+			"scope": "entity.name.function.shell, punctuation.definition.variable.shell",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
 		},
 		{
-			"scope": "storage.modifier.shell, entity.name.function.shell, variable.other.positional.shell, variable.other.special.shell",
+			"scope": "support.function.builtin.shell, storage.modifier.shell, keyword.operator.redirect.shell",
 			"settings": {
 				"foreground": "#91D921"
-			}
-		},
-		{
-			"scope": "support.function.builtin.shell, keyword.operator.redirect.shell",
-			"settings": {
-				"foreground": "#77C8E4"
 			}
 		},
     	{
@@ -1432,7 +1420,7 @@
 			}
 		},
 		{
-			"scope": "punctuation.section.array.shell",
+			"scope": "keyword.operator.expansion.shell, punctuation.section.array.shell",
 			"settings": {
 				"foreground": "#FDAC42"
 			}
