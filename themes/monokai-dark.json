@@ -1052,7 +1052,7 @@
 			"scope": "string.quoted.double.css, string.quoted.single.css, variable.parameter.url.css",
 			"settings": {
 				"foreground": "#E6DB74",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1065,6 +1065,13 @@
 			"scope": "entity.other.attribute-name.id.css",
 			"settings": {
 				"foreground": "#FDAC42"
+			}
+		},
+		{
+			"scope": "keyword.operator.combinator.css",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": "bold"
 			}
 		},
 		{
