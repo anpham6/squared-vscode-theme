@@ -1068,32 +1068,25 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.combinator.css",
-			"settings": {
-				"foreground": "#D0D0CD",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"scope": "punctuation.definition.keyword.css, keyword.control.at-rule.import.css",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
-			"scope": "support.type.property-name.css, entity.other.attribute-name.css, punctuation.terminator.rule.css",
+			"scope": "support.type.property-name.css, entity.other.attribute-name.css, punctuation.terminator.rule.css, keyword.operator.combinator.css, punctuation.definition.entity.css",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, support.constant.property-value.css",
+			"scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
 			"settings": {
 				"foreground": "#55DDB1"
 			}
 		},
 		{
-			"scope": "constant.other.color, invalid.deprecated.color.w3c-non-standard-color-name.css",
+			"scope": "support.constant.property-value.css, constant.other.color",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
