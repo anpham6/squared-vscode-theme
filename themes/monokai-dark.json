@@ -1402,7 +1402,7 @@
 			}
 		},
 		{
-			"scope": "support.function.builtin.shell, storage.modifier.shell, keyword.operator.redirect.shell",
+			"scope": "support.function.builtin.shell, storage.modifier.shell",
 			"settings": {
 				"foreground": "#91D921"
 			}
@@ -1414,13 +1414,13 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.pipe.shell",
+			"scope": "keyword.operator.pipe.shell, string.quoted.double.shell constant.character.escape.shell",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
 		},
 		{
-			"scope": "keyword.operator.expansion.shell, punctuation.section.array.shell",
+			"scope": "keyword.operator.expansion.shell, keyword.operator.redirect.shell, punctuation.section.array.shell",
 			"settings": {
 				"foreground": "#FDAC42"
 			}
