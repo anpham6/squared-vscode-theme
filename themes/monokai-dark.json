@@ -798,7 +798,7 @@
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#77C8E4"
 			}
 		},
 		{
@@ -1119,7 +1119,7 @@
 		{
 			"scope": "constant.other.character-class.regexp",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#77C8E4"
 			}
 		},
 		{
