@@ -889,7 +889,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation, keyword.operator.spread",
+			"scope": "keyword.operator.bitwise.shift, keyword.operator.type.annotation, keyword.operator.spread, keyword.operator.rest",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -898,13 +898,6 @@
 			"scope": "keyword.control.flow.js, keyword.control.trycatch.js, keyword.control.flow.ts, keyword.control.trycatch.ts, keyword.control.default.js, keyword.control.default.ts",
 			"settings": {
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": "keyword.operator.rest",
-			"settings": {
-				"foreground": "#FDAC42",
-				"fontStyle": "italic"
 			}
 		},
 		{
