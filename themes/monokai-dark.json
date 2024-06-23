@@ -826,12 +826,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.enum",
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
 			"scope": "entity.name.tag.class, entity.name.tag.id",
 			"settings": {
 				"foreground": "#77C8E4"
@@ -844,13 +838,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.variable.enum-member",
-			"settings": {
-				"foreground": "#D0D0CD"
-			}
-		},
-		{
-			"scope": "entity.name.type.module",
+			"scope": "entity.name.type.module, entity.name.type.enum",
 			"settings": {
 				"foreground": "#D0D0CD",
 				"fontStyle": "italic"
