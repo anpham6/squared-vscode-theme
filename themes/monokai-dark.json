@@ -1123,9 +1123,15 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.character-class.regexp, constant.other.character-class.range.regexp, constant.other.character-class.set.regexp",
+			"scope": "constant.other.character-class.range.regexp, constant.other.character-class.set.regexp",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#D0D0CD"
+			}
+		},
+		{
+			"scope": "punctuation.definition.character-class.regexp",
+			"settings": {
+				"foreground": "#55DDB1"
 			}
 		},
 		{
@@ -1203,7 +1209,7 @@
 			}
 		},
 		{
-			"scope": "support.class.c, support.class.cpp",
+			"scope": "support.class.c, support.class.cpp, keyword.other.typedef",
 			"settings": {
 				"foreground": "#55DDB1",
 				"fontStyle": ""
@@ -1377,15 +1383,21 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.shell, punctuation.definition.variable.shell",
+			"scope": "entity.name.function.shell",
 			"settings": {
-				"foreground": "#CB95FD"
+				"foreground": "#55DDB1"
 			}
 		},
 		{
-			"scope": "support.function.builtin.shell, storage.modifier.shell",
+			"scope": "support.function.builtin.shell",
 			"settings": {
 				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "punctuation.definition.variable.shell",
+			"settings": {
+				"foreground": "#CB95FD"
 			}
 		},
     	{
