@@ -1092,32 +1092,26 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.quantifier.regexp, keyword.other.back-reference.regexp",
+			"scope": "constant.other.character-class.regexp",
 			"settings": {
 				"foreground": "#CB95FD"
 			}
 		},
 		{
-			"scope": "constant.other.character-class.regexp",
-			"settings": {
-				"foreground": "#77C8E4"
-			}
-		},
-		{
-			"scope": "punctuation.definition.group.regexp, punctuation.definition.group.capture.regexp",
+			"scope": "punctuation.definition.group.regexp",
 			"settings": {
 				"foreground": "#FDAC42",
-				"fontStyle": "underline"
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "keyword.operator.or.regexp",
+			"scope": "punctuation.definition.group.capture.regexp, punctuation.definition.group.assertion.regexp, keyword.other.back-reference.regexp, keyword.operator.or.regexp",
 			"settings": {
 				"foreground": "#FDAC42"
 			}
 		},
 		{
-			"scope": "keyword.control.anchor.regexp, keyword.operator.negation.regexp",
+			"scope": "keyword.control.anchor.regexp, keyword.operator.negation.regexp, keyword.operator.quantifier.regexp",
 			"settings": {
 				"foreground": "#F92672"
 			}
@@ -1131,7 +1125,7 @@
 		{
 			"scope": "punctuation.definition.character-class.regexp",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#91D921"
 			}
 		},
 		{
@@ -1307,7 +1301,7 @@
 		{
 			"scope": "markup.bold, markup.inline.raw",
 			"settings": {
-				"foreground": "#CD9731"
+				"foreground": "#DDAB31"
 			}
 		},
 		{
@@ -1367,7 +1361,7 @@
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#CD9731"
+				"foreground": "#DDAB31"
 			}
 		},
 		{
