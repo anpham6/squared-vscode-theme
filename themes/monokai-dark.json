@@ -808,7 +808,13 @@
 			}
 		},
 		{
-			"scope": "variable, variable.other.object, variable.other.property, support.variable, punctuation.accessor",
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "#E7E7E6"
+			}
+		},
+		{
+			"scope": "variable, variable.other.readwrite, variable.other.object, variable.other.property, variable.other.enummember, support.variable, punctuation.accessor",
 			"settings": {
 				"foreground": "#D0D0CD"
 			}
@@ -838,9 +844,15 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.module, entity.name.type.enum",
+			"scope": "entity.name.type.module, entity.name.type.enum, entity.name.function.preprocessor",
 			"settings": {
-				"foreground": "#D0D0CD",
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#E7E7E6",
 				"fontStyle": "italic"
 			}
 		},
@@ -974,13 +986,6 @@
 			"settings": {
 				"foreground": "#91D921",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "entity.name.function.preprocessor",
-			"settings": {
-				"foreground": "#D0D0CD",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1238,20 +1243,20 @@
 		{
 			"scope": "punctuation.separator.pointer-access, punctuation.separator.dot-access",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#E7E7E6"
 			}
 		},
 		{
-			"scope": "entity.name.namespace.cpp",
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "variable.parameter.cpp, meta.qualified_type.cpp, entity.name.function.member.cpp",
+			"scope": "meta.qualified_type.cpp, entity.name.function.member.cpp",
 			"settings": {
 				"foreground": "#D0D0CD"
+			}
+		},
+		{
+			"scope": "variable.other.object.access, entity.name.operator.cpp, entity.name.scope-resolution.operator.cpp",
+			"settings": {
+				"foreground": "#D0D0CD",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1266,12 +1271,6 @@
 			"settings": {
 				"foreground": "#D0D0CD",
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": "variable.other.object.access, entity.name.operator.cpp, entity.name.scope-resolution.operator.cpp",
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
