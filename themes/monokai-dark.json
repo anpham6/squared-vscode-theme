@@ -810,7 +810,8 @@
 		{
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#E7E7E6"
+				"foreground": "#F0F0F0"
+
 			}
 		},
 		{
@@ -846,13 +847,13 @@
 		{
 			"scope": "entity.name.type.module, entity.name.type.enum, entity.name.function.preprocessor",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#F0F0F0"
 			}
 		},
 		{
 			"scope": "entity.name.namespace",
 			"settings": {
-				"foreground": "#E7E7E6",
+				"foreground": "#F0F0F0",
 				"fontStyle": "italic"
 			}
 		},
@@ -1242,7 +1243,7 @@
 		{
 			"scope": "punctuation.separator.pointer-access, punctuation.separator.dot-access",
 			"settings": {
-				"foreground": "#E7E7E6"
+				"foreground": "#F0F0F0"
 			}
 		},
 		{
