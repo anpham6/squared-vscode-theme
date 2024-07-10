@@ -1030,8 +1030,7 @@
 		{
 			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
 			"settings": {
-				"foreground": "#75715E",
-				"fontStyle": "bold"
+				"foreground": "#ACA99E"
 			}
 		},
 		{
@@ -1312,7 +1311,8 @@
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#75715E"
+				"foreground": "#FDAC42AA",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1328,7 +1328,7 @@
 			}
 		},
 		{
-			"scope": "markup.bold, markup.heading",
+			"scope": "markup.bold",
 			"settings": {
 				"fontStyle": "bold"
 			}
