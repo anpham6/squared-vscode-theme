@@ -832,7 +832,14 @@
 			}
 		},
 		{
-			"scope": "variable.language.super, variable.language.this, variable.language.arguments",
+			"scope": "variable.language.super, variable.language.this",
+			"settings": {
+				"foreground": "#55DDB1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "variable.language.arguments",
 			"settings": {
 				"foreground": "#F92672"
 			}
@@ -1233,7 +1240,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.cpp, entity.name.type.struct.cpp, storage.type.built-in.primitive.cpp",
+			"scope": "entity.name.type.cpp, entity.name.type.struct.cpp, storage.type.built-in.primitive.cpp, storage.type.built-in.cpp",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
