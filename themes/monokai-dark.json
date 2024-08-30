@@ -902,12 +902,6 @@
 			}
 		},
 		{
-			"scope": "storage.type.property",
-			"settings": {
-				"foreground": "#77C8E4"
-			}
-		},
-		{
 			"scope": "keyword.other.import, keyword.other.import.static",
 			"settings": {
 				"foreground": "#55DDB1"
@@ -929,6 +923,12 @@
 			"scope": "storage, storage.type.class",
 			"settings": {
 				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": "storage.type.property",
+			"settings": {
+				"foreground": "#77C8E4"
 			}
 		},
 		{
@@ -1152,6 +1152,12 @@
 			}
 		},
 		{
+			"scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+			"settings": {
+				"foreground": "#E6DB7499"
+			}
+		},
+		{
 			"scope": "punctuation.separator.dictionary.pair.json, punctuation.separator.dictionary.key-value.json, punctuation.separator.array.json",
 			"settings": {
 				"foreground": "#8E8B7C"
@@ -1161,12 +1167,6 @@
 			"scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json",
 			"settings": {
 				"foreground": "#77C8E499"
-			}
-		},
-		{
-			"scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-			"settings": {
-				"foreground": "#E6DB7499"
 			}
 		},
 		{
@@ -1202,6 +1202,37 @@
 		},
 		{
 			"scope": "storage.modifier.extends.java",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "support.class.ruby",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "variable.language.ruby",
+			"settings": {
+				"foreground": "#D8D8D8",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "variable.other.readwrite.global.ruby",
+			"settings": {
+				"foreground": "#77C8E4",
+			}
+		},
+		{
+			"scope": "keyword.other.special-method.ruby",
+			"settings": {
+				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "keyword.control.pseudo-method.ruby",
 			"settings": {
 				"fontStyle": "italic"
 			}
