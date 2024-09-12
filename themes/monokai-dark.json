@@ -1241,7 +1241,7 @@
 		{
 			"scope": "keyword.other.special-method.ruby",
 			"settings": {
-				"foreground": "#91D921"
+				"foreground": "#F92672"
 			}
 		},
 		{
