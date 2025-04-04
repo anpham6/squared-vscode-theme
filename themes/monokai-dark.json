@@ -1237,7 +1237,7 @@
 		{
 			"scope": "variable.other.readwrite.global.ruby",
 			"settings": {
-				"foreground": "#77C8E4",
+				"foreground": "#77C8E4"
 			}
 		},
 		{
@@ -1247,9 +1247,9 @@
 			}
 		},
 		{
-			"scope": "keyword.control.pseudo-method.ruby",
+			"scope": "punctuation.definition.variable.ruby",
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#FDAC42"
 			}
 		},
 		{
