@@ -110,8 +110,9 @@
 		"menu.selectionBorder": "#00809b",
 		"menu.selectionForeground": "#d7dae0",
 		"menu.separatorBackground": "#30363d",
-		"menubar.selectionBackground": "#414339",
-		"menubar.selectionForeground": "#e6edf3",
+		"menubar.selectionBackground": "#2c313a",
+		"menubar.selectionForeground": "#d7dae0",
+		"menubar.selectionBorder": "#30363d",
 		"minimap.selectionHighlight": "#878b9180",
 		"notificationCenterHeader.background": "#161b22",
 		"notificationCenterHeader.foreground": "#7d8590",
@@ -1235,6 +1236,12 @@
 			}
 		},
 		{
+			"scope": "variable.other.constant.ruby",
+			"settings": {
+				"foreground": "#55DDB1"
+			}
+		},
+		{
 			"scope": "variable.other.readwrite.global.ruby",
 			"settings": {
 				"foreground": "#77C8E4"
@@ -1255,8 +1262,14 @@
 		{
 			"scope": "constant.other.symbol.ruby",
 			"settings": {
-				"foreground": "#FDAC42",
-				"fontStyle": "underline"
+				"foreground": "#CB95FD"
+			}
+		},
+		{
+			"scope": "variable.parameter.function.ruby",
+			"settings": {
+				"foreground": "#D8D8D8",
+				"fontStyle": ""
 			}
 		},
 		{
