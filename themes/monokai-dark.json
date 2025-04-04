@@ -1253,6 +1253,19 @@
 			}
 		},
 		{
+			"scope": "constant.other.symbol.ruby",
+			"settings": {
+				"foreground": "#FDAC42",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "keyword.control.pseudo-method.ruby",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
 			"scope": "variable.parameter.c, variable.parameter.preprocessor.c",
 			"settings": {
 				"foreground": "#D8D8D8",

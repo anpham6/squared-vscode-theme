@@ -2,7 +2,7 @@
   "name": "squared-vscode-theme",
   "displayName": "squared Theme",
   "description": "VSCode color themes for squared.",
-  "version": "0.0.99",
+  "version": "0.1.0",
   "publisher": "squared",
   "author": {
      "name": "An Pham",
