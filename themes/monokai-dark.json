@@ -39,8 +39,8 @@
 		"editor.foreground": "#D8D8D8",
 		"editor.lineHighlightBackground": "#00809b33",
 		"editor.linkedEditingBackground": "#2f81f712",
-		"editor.selectionBackground": "#878b9180",
-		"editor.selectionHighlightBackground": "#575b6180",
+		"editor.selectionBackground": "#00809b44",
+		"editor.selectionHighlightBackground": "#00809b22",
 		"editor.stackFrameHighlightBackground": "#bb800966",
 		"editor.wordHighlightBackground": "#4a4a7680",
 		"editor.wordHighlightBorder": "#6e768199",
@@ -133,7 +133,7 @@
 		"peekViewEditor.matchHighlightBackground": "#bb800966",
 		"peekViewResult.background": "#0f0f0f",
 		"peekViewResult.matchHighlightBackground": "#bb800966",
-		"peekViewResult.selectionBackground": "#414339",
+		"peekViewResult.selectionBackground": "#00809b33",
 		"peekViewTitle.background": "#0f0f0f",
 		"pickerGroup.border": "#30363d",
 		"pickerGroup.foreground": "#7d8590",
@@ -1236,7 +1236,7 @@
 			}
 		},
 		{
-			"scope": "variable.other.constant.ruby",
+			"scope": "variable.other.constant.ruby, entity.name.type.module.ruby",
 			"settings": {
 				"foreground": "#55DDB1"
 			}
