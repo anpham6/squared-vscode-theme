@@ -849,7 +849,7 @@
 		{
 			"scope": "variable.language.super, variable.language.this",
 			"settings": {
-				"foreground": "#55DDB1",
+				"foreground": "#FDAC42",
 				"fontStyle": "italic"
 			}
 		},
@@ -894,7 +894,7 @@
 		{
 			"scope": "keyword.other.import, keyword.other.import.static",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
@@ -962,7 +962,7 @@
 		{
 			"scope": "support.class, support.class.builtin",
 			"settings": {
-				"foreground": "#55DDB1",
+				"foreground": "#2FC31D",
 				"fontStyle": "italic"
 			}
 		},
@@ -1020,7 +1020,7 @@
 		{
 			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution, entity.other.inherited-class, entity.name.variable.parameter",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
@@ -1046,7 +1046,7 @@
 		{
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#55DDB1DD",
+				"foreground": "#2FC31D",
 				"fontStyle": "italic"
 			}
 		},
@@ -1096,7 +1096,7 @@
 		{
 			"scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
@@ -1108,7 +1108,7 @@
 		{
 			"scope": "punctuation.section.function.css, variable.parameter.misc.css",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
@@ -1194,7 +1194,7 @@
 		{
 			"scope": "storage.type.java",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
@@ -1238,7 +1238,7 @@
 		{
 			"scope": "variable.other.constant.ruby, entity.name.type.module.ruby",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
@@ -1251,6 +1251,13 @@
 			"scope": "keyword.other.special-method.ruby",
 			"settings": {
 				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": "variable.language.self.ruby",
+			"settings": {
+				"foreground": "#FDAC42",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1300,14 +1307,14 @@
 		{
 			"scope": "support.class.c, support.class.cpp, keyword.other.typedef",
 			"settings": {
-				"foreground": "#55DDB1",
+				"foreground": "#2FC31D",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.control.directive, constant.numeric.preprocessor",
 			"settings": {
-				"foreground": "#55DDB1",
+				"foreground": "#2FC31D",
 				"fontStyle": "italic"
 			}
 		},
@@ -1464,7 +1471,7 @@
 		{
 			"scope": "entity.name.function.shell",
 			"settings": {
-				"foreground": "#55DDB1"
+				"foreground": "#2FC31D"
 			}
 		},
 		{
