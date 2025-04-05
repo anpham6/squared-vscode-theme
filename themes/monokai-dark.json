@@ -1225,7 +1225,8 @@
 		{
 			"scope": "support.class.ruby",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#23A218",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1236,13 +1237,19 @@
 			}
 		},
 		{
-			"scope": "variable.other.constant.ruby, entity.name.type.module.ruby",
+			"scope": "variable.other.constant.ruby",
+			"settings": {
+				"foreground": "#91D921"
+			}
+		},
+		{
+			"scope": "entity.name.type.module.ruby",
 			"settings": {
 				"foreground": "#2FC31D"
 			}
 		},
 		{
-			"scope": "variable.other.readwrite.global.ruby",
+			"scope": "variable.other.readwrite.global.ruby, punctuation.separator.variable.ruby",
 			"settings": {
 				"foreground": "#77C8E4"
 			}
@@ -1254,7 +1261,7 @@
 			}
 		},
 		{
-			"scope": "variable.language.self.ruby",
+			"scope": "variable.language.self.ruby, variable.other.block.ruby",
 			"settings": {
 				"foreground": "#FDAC42",
 				"fontStyle": "italic"
@@ -1270,13 +1277,6 @@
 			"scope": "constant.other.symbol.ruby",
 			"settings": {
 				"foreground": "#CB95FD"
-			}
-		},
-		{
-			"scope": "variable.parameter.function.ruby",
-			"settings": {
-				"foreground": "#D8D8D8",
-				"fontStyle": ""
 			}
 		},
 		{
