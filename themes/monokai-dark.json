@@ -8,15 +8,15 @@
 		"activityBar.foreground": "#e6edf3",
 		"activityBar.inactiveForeground": "#7d8590",
 		"activityBarBadge.background": "#1f6feb",
-		"activityBarBadge.foreground": "#ffffff",
+		"activityBarBadge.foreground": "#e6edf3",
 		"badge.background": "#1f6feb",
-		"badge.foreground": "#ffffff",
+		"badge.foreground": "#e6edf3",
 		"breadcrumb.activeSelectionForeground": "#7d8590",
 		"breadcrumb.focusForeground": "#e6edf3",
 		"breadcrumb.foreground": "#7d8590",
 		"breadcrumbPicker.background": "#161b22",
 		"button.background": "#238636",
-		"button.foreground": "#ffffff",
+		"button.foreground": "#e6edf3",
 		"button.hoverBackground": "#2ea043",
 		"button.secondaryBackground": "#282e33",
 		"button.secondaryForeground": "#c9d1d9",
@@ -25,11 +25,11 @@
 		"checkbox.border": "#30363d",
 		"commandCenter.activeBackground": "#00809b33",
 		"commandCenter.activeBorder": "#00809b",
-		"commandCenter.activeForeground": "#d8d8d8",
+		"commandCenter.activeForeground": "#e6edf3",
 		"commandCenter.background": "#161b22",
 		"commandCenter.border": "#30363d",
 		"commandCenter.debuggingBackground": "#02020242",
-		"commandCenter.foreground": "#d8d8d8",
+		"commandCenter.foreground": "#e6edf3",
 		"commandCenter.inactiveBorder": "#7d859040",
 		"commandCenter.inactiveForeground": "#7d8590",
 		"debugToolBar.background": "#161b22",
@@ -178,7 +178,7 @@
 		"statusBarItem.activeBackground": "#e6edf31f",
 		"statusBarItem.focusBorder": "#1f6feb",
 		"statusBarItem.hoverBackground": "#e6edf314",
-		"statusBarItem.hoverForeground": "#ffffff",
+		"statusBarItem.hoverForeground": "#e6edf3",
 		"statusBarItem.prominentBackground": "#6e768166",
 		"statusBarItem.remoteBackground": "#007acc",
 		"statusBarItem.remoteForeground": "#e6edf3",
@@ -878,10 +878,12 @@
 				"support.function",
 				"keyword.operator.cast",
 				"keyword.control.require",
+				"entity.name.type",
 				"entity.name.type.namespace.declaration",
 				"entity.name.function",
-				"entity.other.attribute-name",
 				"entity.name.function.invocation",
+				"entity.other.inherited-class",
+				"entity.other.attribute-name",
 				"punctuation.definition.list.begin"
 			],
 			"settings": {
@@ -897,10 +899,8 @@
 				"keyword.other.typedef",
 				"keyword.control.directive",
 				"constant.numeric.preprocessor",
-				"entity.name.type",
 				"entity.name.class",
-				"entity.name.scope-resolution",
-				"entity.other.inherited-class",
+				"entity.name.scope-resolution",				
 				"entity.name.variable.parameter"
 			],
 			"settings": {
@@ -1198,15 +1198,12 @@
 			}
 		},
 		{
-			"scope": "variable.other.constant.ruby",
+			"scope": [
+				"entity.name.type.module.ruby",
+				"variable.other.constant.ruby"
+			],
 			"settings": {
 				"foreground": "#91D921"
-			}
-		},
-		{
-			"scope": "entity.name.type.module.ruby",
-			"settings": {
-				"foreground": "#58CF4A"
 			}
 		},
 		{
