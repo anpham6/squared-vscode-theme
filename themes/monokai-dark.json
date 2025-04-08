@@ -2,7 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
-		"activityBar.activeBorder": "#6e7681",
+		"activityBar.activeBorder": "#1f6feb",
 		"activityBar.background": "#161b22",
 		"activityBar.border": "#30363d",
 		"activityBar.foreground": "#e6edf3",
@@ -169,8 +169,8 @@
 		"sideBarTitle.foreground": "#e6edf3",
 		"statusBar.background": "#0c0b18",
 		"statusBar.border": "#30363d",
-		"statusBar.debuggingBackground": "#007acc",
-		"statusBar.debuggingBorder": "#000000",
+		"statusBar.debuggingBackground": "#0061a3",
+		"statusBar.debuggingBorder": "#30363d",
 		"statusBar.debuggingForeground": "#e6edf3",
 		"statusBar.focusBorder": "#1f6feb80",
 		"statusBar.foreground": "#7d8590",
@@ -839,7 +839,6 @@
 				"keyword.operator.rest",
 				"entity.name.namespace",
 				"entity.name.type.module",
-				"entity.name.type.enum",
 				"entity.name.type.namespace",
 				"entity.name.function.preprocessor"
 			],
@@ -900,7 +899,7 @@
 				"keyword.control.directive",
 				"constant.numeric.preprocessor",
 				"entity.name.class",
-				"entity.name.scope-resolution",				
+				"entity.name.scope-resolution",
 				"entity.name.variable.parameter"
 			],
 			"settings": {
@@ -1213,12 +1212,6 @@
 			}
 		},
 		{
-			"scope": "punctuation.separator.variable.ruby",
-			"settings": {
-				"foreground": "#75715E"
-			}
-		},
-		{
 			"scope": "keyword.other.special-method.ruby",
 			"settings": {
 				"foreground": "#F92672"
@@ -1403,19 +1396,10 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.shell",
-			"settings": {
-				"foreground": "#58CF4A"
-			}
-		},
-		{
-			"scope": "support.function.builtin.shell",
-			"settings": {
-				"foreground": "#91D921"
-			}
-		},
-		{
-			"scope": "punctuation.definition.variable.shell",
+			"scope": [
+				"punctuation.definition.variable.shell",
+
+			],
 			"settings": {
 				"foreground": "#CB95FD"
 			}
@@ -1423,17 +1407,16 @@
     	{
 			"scope": [
 				"keyword.operator.logical.shell",
-				"keyword.operator.arithmetic.shell"
+				"punctuation.definition.logical-expression.shell"
 			],
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#77C8E4"
 			}
 		},
 		{
 			"scope": [
-				"keyword.operator.pipe.shell",
-				"string.quoted.double.shell",
-				"constant.character.escape.shell"
+				"keyword.operator.redirect.shell",
+				"keyword.operator.pipe.shell"
 			],
 			"settings": {
 				"foreground": "#D8D8D8"
@@ -1441,12 +1424,20 @@
 		},
 		{
 			"scope": [
+				"variable.other.normal.shell",
 				"keyword.operator.expansion.shell",
-				"keyword.operator.redirect.shell",
 				"punctuation.section.array.shell"
 			],
 			"settings": {
 				"foreground": "#FDAC42"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.shell"
+			],
+			"settings": {
+				"foreground": "#FDAC42D0"
 			}
 		},
 		{
@@ -1475,7 +1466,6 @@
 				"keyword.other.using.directive.cpp",
 				"entity.name.operator.cpp",
 				"entity.name.scope-resolution.operator.cpp",
-				"support.class.ruby",
 				"variable.language.self.ruby",
 				"variable.other.block.ruby"
 			],
@@ -1486,6 +1476,7 @@
 		{
 			"scope": [
 				"punctuation.definition.group.regexp",
+				"punctuation.definition.group.shell",
 				"storage.modifier.pointer.cpp",
 				"storage.modifier.reference.cpp"
 			],
@@ -1515,6 +1506,7 @@
 				"support.class.kotlin",
 				"support.class.c",
 				"support.class.cpp",
+				"support.class.ruby",
 				"variable.parameter.c",
 				"variable.parameter.preprocessor.c"
 			],
