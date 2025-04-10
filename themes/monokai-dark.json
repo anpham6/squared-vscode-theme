@@ -877,8 +877,6 @@
 				"support.function",
 				"keyword.operator.cast",
 				"keyword.control.require",
-				"entity.name.type",
-				"entity.name.type.namespace.declaration",
 				"entity.name.function",
 				"entity.name.function.invocation",
 				"entity.other.inherited-class",
@@ -904,6 +902,15 @@
 			],
 			"settings": {
 				"foreground": "#58CF4A"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type",
+				"entity.name.type.namespace.declaration"
+			],
+			"settings": {
+				"foreground": "#4EC973"
 			}
 		},
 		{
@@ -940,8 +947,6 @@
 				"variable.language.super",
 				"variable.language.this",
 				"variable.other.object.access",
-				"support.class",
-				"support.class.builtin",
 				"keyword.other.package",
 				"keyword.other.namespace",
 				"keyword.other.class",
@@ -1193,7 +1198,7 @@
 		{
 			"scope": "support.class.ruby",
 			"settings": {
-				"foreground": "#23A218"
+				"foreground": "#4EC973"
 			}
 		},
 		{
@@ -1254,13 +1259,13 @@
 				"entity.name.type.c",
 				"entity.name.type.struct.c",
 				"storage.type.built-in.c",
+				"storage.type.built-in.primitive.c",
 				"entity.name.type.cpp",
 				"entity.name.type.struct.cpp",
+				"entity.name.type.template.cpp",
 				"storage.type.built-in.cpp",
-				"storage.type.built-in.primitive.c",
 				"storage.type.built-in.primitive.cpp",
 				"storage.type.template.cpp",
-				"entity.name.type.template.cpp",
 				"keyword.other.using.directive.cpp"
 			],
 			"settings": {
@@ -1333,24 +1338,6 @@
 			],
 			"settings": {
 				"foreground": "#D8D8D8"
-			}
-		},
-		{
-			"scope": [
-				"markup.bold",
-				"markup.heading"
-			],
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"markup.italic",
-				"markup.quote"
-			],
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1467,7 +1454,9 @@
 				"entity.name.operator.cpp",
 				"entity.name.scope-resolution.operator.cpp",
 				"variable.language.self.ruby",
-				"variable.other.block.ruby"
+				"variable.other.block.ruby",
+				"markup.italic",
+				"markup.quote"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -1478,7 +1467,9 @@
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.shell",
 				"storage.modifier.pointer.cpp",
-				"storage.modifier.reference.cpp"
+				"storage.modifier.reference.cpp",
+				"markup.bold",
+				"markup.heading"
 			],
 			"settings": {
 				"fontStyle": "bold"
@@ -1503,10 +1494,6 @@
 				"string.quoted.single.css",
 				"variable.parameter.url.css",
 				"storage.type.generic.java",
-				"support.class.kotlin",
-				"support.class.c",
-				"support.class.cpp",
-				"support.class.ruby",
 				"variable.parameter.c",
 				"variable.parameter.preprocessor.c"
 			],
