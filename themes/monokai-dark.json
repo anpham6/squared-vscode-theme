@@ -806,10 +806,10 @@
 			"scope": [
 				"keyword",
 				"storage",
-				"keyword.control.directive.include",
 				"storage.type.class",
 				"variable.language.arguments",
 				"entity.name.tag",
+				"keyword.control.directive.include",
 				"punctuation.definition.function.return-type"
 			],
 			"settings": {
@@ -849,23 +849,23 @@
 		{
 			"scope": [
 				"variable.language",
-				"string.other.link.title",
 				"keyword.other.package",
 				"keyword.other.namespace",
 				"keyword.other.class",
 				"constant.other.color",
 				"constant.character.escape",
 				"support.type",
-				"support.constant",
-				"support.other.variable",
 				"storage.type.type",
 				"storage.type.interface",
 				"storage.type.property",
 				"storage.type.enum",
 				"storage.type.namespace",
 				"storage.type.function",
+				"support.constant",
+				"support.other.variable",
 				"entity.name.tag.class",
 				"entity.name.tag.id",
+				"string.other.link.title",
 				"punctuation.section.angle-brackets"
 			],
 			"settings": {
@@ -877,6 +877,9 @@
 				"support.function",
 				"keyword.operator.cast",
 				"keyword.control.require",
+				"entity.name.type.enum",
+				"entity.name.type.interface",
+				"entity.name.type.class",
 				"entity.name.function",
 				"entity.name.function.invocation",
 				"entity.other.inherited-class",
@@ -1031,8 +1034,8 @@
 			"scope": [
 				"support.type.property-name.css",
 				"entity.other.attribute-name.css",
-				"punctuation.terminator.rule.css",
 				"keyword.operator.combinator.css",
+				"punctuation.terminator.rule.css",
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
@@ -1157,9 +1160,9 @@
 		{
 			"scope": [
 				"storage.modifier.import.java",
-				"variable.language.wildcard.java",
 				"storage.modifier.package.java",
 				"storage.modifier.import.kotlin",
+				"variable.language.wildcard.java",
 				"variable.language.wildcard.kotlin",
 				"storage.modifier.package.kotlin"
 			],
@@ -1447,8 +1450,8 @@
 		},
 		{
 			"scope": [
-				"keyword.other.important.css",
 				"storage.modifier.extends.java",
+				"keyword.other.important.css",
 				"keyword.other.kotlin",
 				"keyword.other.using.directive.cpp",
 				"entity.name.operator.cpp",
@@ -1477,11 +1480,11 @@
 		},
 		{
 			"scope": [
+				"storage.modifier.specifier.parameter.cpp",
 				"keyword.control.flow.js",
 				"keyword.control.flow.ts",
 				"keyword.control.default.js",
 				"keyword.control.default.ts",
-				"storage.modifier.specifier.parameter.cpp",
 				"keyword.control.pseudo-method.ruby"
 			],
 			"settings": {
