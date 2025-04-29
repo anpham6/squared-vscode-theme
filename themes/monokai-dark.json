@@ -173,7 +173,7 @@
 		"statusBar.debuggingBorder": "#30363d",
 		"statusBar.debuggingForeground": "#e6edf3",
 		"statusBar.focusBorder": "#1f6feb80",
-		"statusBar.foreground": "#7d8590",
+		"statusBar.foreground": "#e6edf3",
 		"statusBar.noFolderBackground": "#0c0b18",
 		"statusBarItem.activeBackground": "#e6edf31f",
 		"statusBarItem.focusBorder": "#1f6feb",
@@ -962,7 +962,9 @@
 				"storage.type.function",
 				"entity.name.namespace",
 				"entity.name.function.invocation",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"markup.italic",
+				"markup.quote"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -970,7 +972,10 @@
 		},
 		{
 			"scope": [
-				"entity.name.section"
+				"entity.name.section",
+				"entity.name.function.preprocessor",
+				"markup.bold",
+				"markup.heading"
 			],
 			"settings": {
 				"fontStyle": "bold"
@@ -1278,19 +1283,12 @@
 		},
 		{
 			"scope": [
+				"support.class.c",
+				"support.class.cpp",
 				"punctuation.section.arguments.begin.bracket.round.c",
 				"punctuation.section.arguments.end.bracket.round.c",
 				"punctuation.section.arguments.begin.bracket.round.cpp",
 				"punctuation.section.arguments.end.bracket.round.cpp"
-			],
-			"settings": {
-				"foreground": "#91D921"
-			}
-		},
-		{
-			"scope": [
-				"support.class.c",
-				"support.class.cpp"
 			],
 			"settings": {
 				"foreground": "#58CF4A"
@@ -1469,9 +1467,7 @@
 				"entity.name.operator.cpp",
 				"entity.name.scope-resolution.operator.cpp",
 				"variable.language.self.ruby",
-				"variable.other.block.ruby",
-				"markup.italic",
-				"markup.quote"
+				"variable.other.block.ruby"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -1482,9 +1478,7 @@
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.shell",
 				"storage.modifier.pointer.cpp",
-				"storage.modifier.reference.cpp",
-				"markup.bold",
-				"markup.heading"
+				"storage.modifier.reference.cpp"
 			],
 			"settings": {
 				"fontStyle": "bold"
