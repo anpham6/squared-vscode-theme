@@ -1466,8 +1466,7 @@
 				"keyword.other.using.directive.cpp",
 				"entity.name.operator.cpp",
 				"entity.name.scope-resolution.operator.cpp",
-				"variable.language.self.ruby",
-				"variable.other.block.ruby"
+				"variable.language.self.ruby"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -1499,6 +1498,7 @@
 		},
 		{
 			"scope": [
+				"support.class.ruby",
 				"string.quoted.double.css",
 				"string.quoted.single.css",
 				"variable.parameter.url.css",
