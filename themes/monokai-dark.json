@@ -946,7 +946,6 @@
 		},
 		{
 			"scope": [
-				"support.class",
 				"variable.parameter",
 				"variable.language.super",
 				"variable.language.this",
@@ -1498,7 +1497,6 @@
 		},
 		{
 			"scope": [
-				"support.class.ruby",
 				"string.quoted.double.css",
 				"string.quoted.single.css",
 				"variable.parameter.url.css",
