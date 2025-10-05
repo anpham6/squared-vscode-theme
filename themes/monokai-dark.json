@@ -876,9 +876,11 @@
 				"support.function",
 				"keyword.operator.cast",
 				"keyword.control.require",
+				"entity.name.type.module",
 				"entity.name.type.enum",
 				"entity.name.type.interface",
 				"entity.name.type.class",
+				"entity.name.type.alias",
 				"entity.name.function",
 				"entity.name.function.invocation",
 				"entity.other.inherited-class",
@@ -1051,7 +1053,6 @@
 			"scope": [
 				"entity.other.attribute-name.pseudo-element.css",
 				"entity.other.attribute-name.pseudo-class.css",
-				"variable.parameter.misc.css",
 				"punctuation.section.function.css"
 			],
 			"settings": {
@@ -1310,7 +1311,8 @@
 				"markup.list",
 				"markup.changed",
 				"markup.underline.link",
-				"markup.underline.link.image"
+				"markup.underline.link.image",
+				"variable.parameter.misc.css"
 			],
 			"settings": {
 				"foreground": "#E6DB74"
@@ -1346,14 +1348,7 @@
 		{
 			"scope": [
 				"markup.list.unnumbered",
-				"markup.list.numbered"
-			],
-			"settings": {
-				"foreground": "#D8D8D8"
-			}
-		},
-		{
-			"scope": [
+				"markup.list.numbered",
 				"meta.embedded",
 				"meta.template.expression"
 			],
@@ -1500,6 +1495,7 @@
 				"string.quoted.double.css",
 				"string.quoted.single.css",
 				"variable.parameter.url.css",
+				"variable.parameter.misc.css",
 				"storage.type.generic.java",
 				"variable.parameter.c",
 				"variable.parameter.preprocessor.c"
