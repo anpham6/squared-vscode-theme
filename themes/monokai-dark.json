@@ -915,7 +915,7 @@
 				"entity.name.type.namespace.declaration"
 			],
 			"settings": {
-				"foreground": "#4EC973"
+				"foreground": "#67C94E"
 			}
 		},
 		{
@@ -1207,7 +1207,7 @@
 		{
 			"scope": "support.class.ruby",
 			"settings": {
-				"foreground": "#4EC973"
+				"foreground": "#67C94E"
 			}
 		},
 		{
