@@ -1460,6 +1460,7 @@
 				"keyword.other.using.directive.cpp",
 				"entity.name.operator.cpp",
 				"entity.name.scope-resolution.operator.cpp",
+				"keyword.control.def.ruby",
 				"variable.language.self.ruby"
 			],
 			"settings": {
