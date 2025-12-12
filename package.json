@@ -2,7 +2,7 @@
   "name": "squared-vscode-theme",
   "displayName": "squared Theme",
   "description": "VSCode color themes for squared.",
-  "version": "0.1.25",
+  "version": "0.2.0",
   "publisher": "squared",
   "author": {
      "name": "An Pham",
@@ -22,6 +22,11 @@
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "squared Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai.json"
+      },
       {
         "label": "squared Monokai Dark",
         "uiTheme": "vs-dark",
