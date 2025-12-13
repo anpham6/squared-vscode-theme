@@ -1249,11 +1249,23 @@
 			}
 		},
 		{
-			"scope":"variable.language.special.self.python",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.single.python"
+			],
+			"settings": {
+				"foreground": "#88846F"
+			}
+		},
+		{
+			"scope": [
+				"keyword.codetag.notation.python",
+				"variable.language.special.self.python"
+			],
 			"settings": {
 				"foreground": "#FDAC42"
 			}
-		},		
+		},
 		{
 			"scope": [
 				"variable.parameter.c",
