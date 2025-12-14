@@ -851,6 +851,7 @@
 				"keyword.other.package",
 				"keyword.other.namespace",
 				"keyword.other.class",
+				"keyword.control.directive.conditional",
 				"constant.other.color",
 				"constant.character.escape",
 				"support.type",
@@ -957,7 +958,7 @@
 				"keyword.other.namespace",
 				"keyword.other.class",
 				"keyword.operator.expression.void",
-				"keyword.control.directive",
+				"keyword.control.directive.define",
 				"constant.numeric.preprocessor",
 				"storage.type.namespace",
 				"storage.modifier.async",
@@ -1294,6 +1295,9 @@
 				"storage.type.built-in.cpp",
 				"storage.type.built-in.primitive.cpp",
 				"storage.type.template.cpp",
+				"keyword.control.directive.elif",
+				"keyword.control.directive.else",
+				"keyword.control.directive.endif",
 				"keyword.other.using.directive.cpp"
 			],
 			"settings": {
