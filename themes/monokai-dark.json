@@ -876,6 +876,7 @@
 			"scope": [
 				"support.function",
 				"support.type.exception",
+				"keyword.other.typedef",
 				"keyword.operator.cast",
 				"keyword.control.require",
 				"entity.name.type.module",
@@ -899,7 +900,6 @@
 				"support.class.builtin",
 				"keyword.other.import",
 				"keyword.other.import.static",
-				"keyword.other.typedef",
 				"keyword.control.directive",
 				"constant.numeric.preprocessor",
 				"entity.name.class",
@@ -957,8 +957,10 @@
 				"keyword.other.package",
 				"keyword.other.namespace",
 				"keyword.other.class",
+				"keyword.other.typedef",
 				"keyword.operator.expression.void",
 				"keyword.control.directive.define",
+				"keyword.control.directive.undef",
 				"constant.numeric.preprocessor",
 				"storage.type.namespace",
 				"storage.modifier.async",
@@ -1289,6 +1291,8 @@
 				"entity.name.type.struct.c",
 				"storage.type.built-in.c",
 				"storage.type.built-in.primitive.c",
+				"punctuation.definition.begin.bracket.c",
+				"punctuation.definition.end.bracket.c",
 				"entity.name.type.cpp",
 				"entity.name.type.struct.cpp",
 				"entity.name.type.template.cpp",
@@ -1298,7 +1302,9 @@
 				"keyword.control.directive.elif",
 				"keyword.control.directive.else",
 				"keyword.control.directive.endif",
-				"keyword.other.using.directive.cpp"
+				"keyword.other.using.directive.cpp",
+				"punctuation.definition.begin.bracket.cpp",
+				"punctuation.definition.end.bracket.cpp"
 			],
 			"settings": {
 				"foreground": "#77C8E4"
