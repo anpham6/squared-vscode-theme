@@ -92,7 +92,7 @@
 		"icon.foreground": "#7d8590",
 		"input.background": "#161b22",
 		"input.border": "#30363d",
-		"input.foreground": "#d8d8d8",
+		"input.foreground": "#e6edf3",
 		"input.placeholderForeground": "#6e7681",
 		"inputOption.activeBorder": "#6e7681",
 		"inputValidation.errorBackground": "#90274a",
