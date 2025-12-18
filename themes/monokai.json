@@ -945,7 +945,7 @@
 				"entity.name.section"
 			],
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
@@ -1029,7 +1029,7 @@
 		{
 			"scope": "entity.other.attribute-name.id.css",
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
@@ -1105,7 +1105,7 @@
 				"keyword.operator.or.regexp"
 			],
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
@@ -1242,7 +1242,7 @@
 				"punctuation.definition.variable.ruby"
 			],
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
@@ -1266,7 +1266,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
@@ -1365,13 +1365,13 @@
 		{
 			"scope": "markup.italic",
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#FDAC42AA"
+				"foreground": "#FDA129AA"
 			}
 		},
 		{
@@ -1452,7 +1452,7 @@
 				"punctuation.section.array.shell"
 			],
 			"settings": {
-				"foreground": "#FDAC42"
+				"foreground": "#FDA129"
 			}
 		},
 		{
@@ -1460,7 +1460,7 @@
 				"string.quoted.double.shell"
 			],
 			"settings": {
-				"foreground": "#FDAC42D0"
+				"foreground": "#FDA129D0"
 			}
 		},
 		{
