@@ -184,7 +184,7 @@
 		"statusBarItem.remoteForeground": "#e6edf3",
 		"tab.activeBackground": "#272822",
 		"tab.activeBorder": "#272822",
-		"tab.activeBorderTop": "#58cf4a",
+		"tab.activeBorderTop": "#91d921",
 		"tab.activeForeground": "#e6edf3",
 		"tab.border": "#30363d",
 		"tab.hoverBackground": "#393939",
@@ -908,7 +908,7 @@
 				"entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#58CF4A"
+				"foreground": "#47A73B"
 			}
 		},
 		{
@@ -1060,7 +1060,7 @@
 				"punctuation.section.function.css"
 			],
 			"settings": {
-				"foreground": "#58CF4A"
+				"foreground": "#47A73B"
 			}
 		},
 		{
@@ -1183,7 +1183,7 @@
 		{
 			"scope": "storage.type.java",
 			"settings": {
-				"foreground": "#58CF4A"
+				"foreground": "#47A73B"
 			}
 		},
 		{
@@ -1320,7 +1320,7 @@
 				"punctuation.section.arguments.end.bracket.round.cpp"
 			],
 			"settings": {
-				"foreground": "#58CF4A"
+				"foreground": "#47A73B"
 			}
 		},
 		{
