@@ -807,6 +807,7 @@
 				"keyword",
 				"storage",
 				"storage.type.class",
+				"variable.language.super",
 				"variable.language.arguments",
 				"entity.name.tag",
 				"keyword.control.directive.include",
@@ -940,7 +941,6 @@
 		{
 			"scope": [
 				"variable.parameter",
-				"variable.language.super",
 				"variable.language.this",
 				"entity.name.section"
 			],
@@ -951,7 +951,6 @@
 		{
 			"scope": [
 				"variable.parameter",
-				"variable.language.super",
 				"variable.language.this",
 				"variable.other.object.access",
 				"keyword.other.package",
@@ -973,6 +972,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"variable.language.super"
+			],
+			"settings": {
+				"fontStyle": "underline"
 			}
 		},
 		{
