@@ -27,8 +27,8 @@
 		"commandCenter.activeBorder": "#2f81f7",
 		"commandCenter.activeForeground": "#e6edf3",
 		"commandCenter.background": "#21262d",
-		"commandCenter.border": "#30363d",
-		"commandCenter.debuggingBackground": "#02020242",
+		"commandCenter.border": "#595e63",
+		"commandCenter.debuggingBackground": "#2f81f730",
 		"commandCenter.foreground": "#e6edf3",
 		"commandCenter.inactiveBorder": "#7d8590aa",
 		"commandCenter.inactiveForeground": "#7d8590",
@@ -87,7 +87,7 @@
 		"editorWhitespace.foreground": "#484f58",
 		"editorWidget.background": "#161b22",
 		"errorForeground": "#f85149",
-		"focusBorder": "#30363d",
+		"focusBorder": "#007acc6a",
 		"foreground": "#e6edf3",
 		"icon.foreground": "#7d8590",
 		"input.background": "#161b22",
@@ -901,8 +901,6 @@
 			"scope": [
 				"support.class",
 				"support.class.builtin",
-				"keyword.other.import",
-				"keyword.other.import.static",
 				"keyword.control.directive",
 				"constant.numeric.preprocessor",
 				"entity.name.class",
@@ -911,7 +909,7 @@
 				"entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#47A73B"
+				"foreground": "#4FBA42"
 			}
 		},
 		{
@@ -1069,7 +1067,7 @@
 				"punctuation.section.function.css"
 			],
 			"settings": {
-				"foreground": "#47A73B"
+				"foreground": "#4FBA42"
 			}
 		},
 		{
@@ -1179,10 +1177,10 @@
 		{
 			"scope": [
 				"storage.modifier.import.java",
-				"storage.modifier.package.java",
 				"storage.modifier.import.kotlin",
 				"variable.language.wildcard.java",
 				"variable.language.wildcard.kotlin",
+				"storage.modifier.package.java",
 				"storage.modifier.package.kotlin"
 			],
 			"settings": {
@@ -1192,7 +1190,7 @@
 		{
 			"scope": "storage.type.java",
 			"settings": {
-				"foreground": "#47A73B"
+				"foreground": "#4FBA42"
 			}
 		},
 		{
@@ -1329,7 +1327,7 @@
 				"punctuation.section.arguments.end.bracket.round.cpp"
 			],
 			"settings": {
-				"foreground": "#47A73B"
+				"foreground": "#4FBA42"
 			}
 		},
 		{
