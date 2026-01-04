@@ -809,7 +809,6 @@
 				"keyword",
 				"storage",
 				"storage.type.class",
-				"variable.language.super",
 				"variable.language.arguments",
 				"entity.name.tag",
 				"keyword.control.directive.include",
@@ -901,24 +900,18 @@
 			"scope": [
 				"support.class",
 				"support.class.builtin",
+				"variable.language.super",
 				"keyword.control.directive",
 				"constant.numeric.preprocessor",
 				"entity.name.class",
+				"entity.name.type",
+				"entity.name.type.namespace.declaration",
 				"entity.name.scope-resolution",
 				"entity.name.variable.parameter",
 				"entity.name.function.decorator"
 			],
 			"settings": {
 				"foreground": "#4FBA42"
-			}
-		},
-		{
-			"scope": [
-				"entity.name.type",
-				"entity.name.type.namespace.declaration"
-			],
-			"settings": {
-				"foreground": "#67C94E"
 			}
 		},
 		{
@@ -972,14 +965,6 @@
 			],
 			"settings": {
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"variable.language.super"
-			],
-			"settings": {
-				"fontStyle": "underline"
 			}
 		},
 		{
@@ -1180,7 +1165,7 @@
 				"storage.modifier.import.kotlin",
 				"variable.language.wildcard.java",
 				"variable.language.wildcard.kotlin",
-				"storage.modifier.package.java",				
+				"storage.modifier.package.java",
 				"storage.modifier.package.kotlin"
 			],
 			"settings": {
@@ -1213,7 +1198,7 @@
 		{
 			"scope": "support.class.ruby",
 			"settings": {
-				"foreground": "#67C94E"
+				"foreground": "#4FBA42"
 			}
 		},
 		{
