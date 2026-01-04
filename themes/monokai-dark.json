@@ -87,7 +87,7 @@
 		"editorWhitespace.foreground": "#484f58",
 		"editorWidget.background": "#161b22",
 		"errorForeground": "#f85149",
-		"focusBorder": "#30363d",
+		"focusBorder": "#007acc33",
 		"foreground": "#e6edf3",
 		"icon.foreground": "#7d8590",
 		"input.background": "#161b22",
@@ -1188,12 +1188,6 @@
 			}
 		},
 		{
-			"scope": "storage.type.java",
-			"settings": {
-				"foreground": "#4FBA42"
-			}
-		},
-		{
 			"scope": [
 				"variable.language.java",
 				"variable.language.kotlin",
@@ -1206,6 +1200,7 @@
 		},
 		{
 			"scope": [
+				"storage.type.java",
 				"storage.type.primitive.java",
 				"storage.type.generic.java",
 				"support.class.kotlin",
