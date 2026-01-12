@@ -849,6 +849,7 @@
 		{
 			"scope": [
 				"variable.language",
+				"variable.language.super",
 				"keyword.other.package",
 				"keyword.other.namespace",
 				"keyword.other.class",
@@ -899,7 +900,6 @@
 			"scope": [
 				"support.class",
 				"support.class.builtin",
-				"variable.language.super",
 				"keyword.control.directive",
 				"constant.numeric.preprocessor",
 				"entity.name.class",
@@ -910,7 +910,7 @@
 				"entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#47B63D"
+				"foreground": "#56BF4B"
 			}
 		},
 		{
@@ -1051,7 +1051,7 @@
 				"punctuation.section.function.css"
 			],
 			"settings": {
-				"foreground": "#47B63D"
+				"foreground": "#56BF4B"
 			}
 		},
 		{
@@ -1200,7 +1200,7 @@
 		{
 			"scope": "support.class.ruby",
 			"settings": {
-				"foreground": "#47B63D"
+				"foreground": "#56BF4B"
 			}
 		},
 		{
@@ -1309,7 +1309,7 @@
 				"punctuation.section.arguments.end.bracket.round.cpp"
 			],
 			"settings": {
-				"foreground": "#47B63D"
+				"foreground": "#56BF4B"
 			}
 		},
 		{
