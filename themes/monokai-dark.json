@@ -67,7 +67,7 @@
 		"editorGutter.addedBackground": "#2ea04366",
 		"editorGutter.deletedBackground": "#f8514966",
 		"editorGutter.modifiedBackground": "#bb800966",
-		"editorHoverWidget.background": "#13131a",
+		"editorHoverWidget.background": "#15151f",
 		"editorHoverWidget.border": "#2f81f7a0",
 		"editorHoverWidget.foreground": "#d7dae0",
 		"editorIndentGuide.activeBackground1": "#e6edf33d",
@@ -688,8 +688,6 @@
 		//"testing.uncoveredBranchBackground": "#7e2242",
 		//"testing.uncoveredGutterBackground": "#90274aa8",
 		//"textPreformat.background": "#ffffff1a",
-		//"toolbar.activeBackground": "#63666750",
-		//"toolbar.hoverBackground": "#5a5d5e50",
 		//"tree.inactiveIndentGuidesStroke": "#21262d66",
 		//"tree.tableColumnsBorder": "#cccccc20",
 		//"tree.tableOddRowsBackground": "#e6edf30a",
@@ -704,7 +702,7 @@
 		//"activityBar.activeFocusBorder": null,
 		//"activityBarTop.activeBackground": null,
 		//"activityBarTop.background": null,
-		//"button.border": null,			
+		//"button.border": null,
 		//"contrastActiveBorder": null,
 		//"contrastBorder": null,
 		//"debugToolBar.border": null,
@@ -1265,6 +1263,18 @@
 			}
 		},
 		{
+			"scope": "support.function.library.lua",
+			"settings": {
+				"foreground": "#77C8E4"
+			}
+		},
+		{
+			"scope": "variable.language.self.lua",
+			"settings": {
+				"foreground": "#FDA129"
+			}
+		},
+		{
 			"scope": [
 				"variable.parameter.c",
 				"variable.parameter.preprocessor.c",
@@ -1485,7 +1495,8 @@
 				"entity.name.scope-resolution.operator.cpp",
 				"keyword.control.def.ruby",
 				"variable.language.self.ruby",
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"variable.language.self.lua"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -1493,6 +1504,7 @@
 		},
 		{
 			"scope": [
+				"support.function.lua",
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.shell",
 				"storage.modifier.pointer.cpp",
