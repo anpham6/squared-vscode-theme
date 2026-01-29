@@ -93,8 +93,8 @@
 		"focusBorder": "#91d9214f",
 		"foreground": "#e6edf3",
 		"icon.foreground": "#e6edf3",
-		"input.background": "#161b22",
-		"input.border": "#161b22",
+		"input.background": "#21262d",
+		"input.border": "#21262d",
 		"input.foreground": "#e6edf3",
 		"input.placeholderForeground": "#6e7681",
 		"inputOption.activeBorder": "#91d9214f",
@@ -1497,7 +1497,8 @@
 				"keyword.control.def.ruby",
 				"variable.language.self.ruby",
 				"variable.language.special.self.python",
-				"variable.language.self.lua"
+				"variable.language.self.lua",
+				"string.quoted.other.multiline.lua"
 			],
 			"settings": {
 				"fontStyle": "italic"
