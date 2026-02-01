@@ -886,6 +886,7 @@
 				"keyword.other.typedef",
 				"keyword.operator.cast",
 				"keyword.control.require",
+				"keyword.instruction",
 				"entity.name.type.module",
 				"entity.name.type.enum",
 				"entity.name.type.interface",
@@ -912,7 +913,8 @@
 				"entity.name.type.namespace.declaration",
 				"entity.name.scope-resolution",
 				"entity.name.variable.parameter",
-				"entity.name.function.decorator"
+				"entity.name.function.decorator",
+				"storage.type.language"
 			],
 			"settings": {
 				"foreground": "#56BF4B"
@@ -1000,11 +1002,7 @@
 			}
 		},
 		{
-			"scope": [
-				"string.quoted.single.css",
-				"string.quoted.double.css",
-				"variable.parameter.url.css"
-			],
+			"scope": "variable.parameter.url.css",
 			"settings": {
 				"foreground": "#E6DB74"
 			}
@@ -1531,8 +1529,6 @@
 		},
 		{
 			"scope": [
-				"string.quoted.double.css",
-				"string.quoted.single.css",
 				"variable.parameter.url.css",
 				"variable.parameter.misc.css",
 				"storage.type.generic.java",
