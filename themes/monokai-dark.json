@@ -1538,7 +1538,9 @@
 				"variable.parameter.misc.css",
 				"storage.type.generic.java",
 				"variable.parameter.c",
-				"variable.parameter.preprocessor.c"
+				"variable.parameter.preprocessor.c",
+				"variable.parameter.cpp",
+				"variable.parameter.preprocessor.cpp"
 			],
 			"settings": {
 				"fontStyle": ""
