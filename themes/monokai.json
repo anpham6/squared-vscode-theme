@@ -886,7 +886,6 @@
 				"keyword.other.typedef",
 				"keyword.operator.cast",
 				"keyword.control.require",
-				"keyword.instruction",
 				"entity.name.type.module",
 				"entity.name.type.enum",
 				"entity.name.type.interface",
@@ -913,8 +912,7 @@
 				"entity.name.type.namespace.declaration",
 				"entity.name.scope-resolution",
 				"entity.name.variable.parameter",
-				"entity.name.function.decorator",
-				"storage.type.language"
+				"entity.name.function.decorator"
 			],
 			"settings": {
 				"foreground": "#56BF4B"
@@ -1283,10 +1281,17 @@
 				"entity.name.scope-resolution.operator.cpp",
 				"storage.modifier.pointer.cpp",
 				"storage.modifier.reference.cpp",
-				"storage.modifier.specifier.parameter.cpp"
+				"storage.modifier.specifier.parameter.cpp",
+				"variable.language.llvm"
 			],
 			"settings": {
 				"foreground": "#D8D8D8"
+			}
+		},
+		{
+			"scope": "keyword.instruction.llvm",
+			"settings": {
+				"foreground": "#91D921"
 			}
 		},
 		{
@@ -1308,7 +1313,8 @@
 				"keyword.control.directive.endif",
 				"keyword.other.using.directive.cpp",
 				"punctuation.definition.begin.bracket.cpp",
-				"punctuation.definition.end.bracket.cpp"
+				"punctuation.definition.end.bracket.cpp",
+				"storage.type.language.llvm"
 			],
 			"settings": {
 				"foreground": "#77C8E4"
@@ -1508,7 +1514,8 @@
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.shell",
 				"storage.modifier.pointer.cpp",
-				"storage.modifier.reference.cpp"
+				"storage.modifier.reference.cpp",
+				"storage.type.language.llvm"
 			],
 			"settings": {
 				"fontStyle": "bold"
