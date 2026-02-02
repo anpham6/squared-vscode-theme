@@ -1273,7 +1273,6 @@
 		},
 		{
 			"scope": [
-				"variable.parameter.c",
 				"variable.parameter.preprocessor.c",
 				"meta.qualified_type.cpp",
 				"entity.name.function.member.cpp",
